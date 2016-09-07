@@ -6,6 +6,7 @@ var searchData=
   ['setactorrotation',['SetActorRotation',['../class_u_horizon_tween_actor_event.html#a41cec7d75ae2a56dcfe8b9157f47ec10',1,'UHorizonTweenActorEvent']]],
   ['setactorscale',['SetActorScale',['../class_u_horizon_tween_actor_event.html#a243997eb6681cfcf32819a7e315bda72',1,'UHorizonTweenActorEvent']]],
   ['seteventstatus',['SetEventStatus',['../class_u_horizon_tween_event.html#a050ad8bb222303cfae26b0a6c5a3df5b',1,'UHorizonTweenEvent']]],
+  ['setfreeze',['SetFreeze',['../class_u_horizon_tween_event.html#ac392dfd44ca77a4bfe2af7b3d47a0f07',1,'UHorizonTweenEvent']]],
   ['setscenecomponentlocation',['SetSceneComponentLocation',['../class_u_horizon_tween_scene_component_event.html#ad9c53a0745ee57858c3006107ab963a4',1,'UHorizonTweenSceneComponentEvent']]],
   ['setscenecomponentmovable',['SetSceneComponentMovable',['../class_u_horizon_tween_scene_component_event.html#a2e1d10baa446a83fde0c5029c7fa0cae',1,'UHorizonTweenSceneComponentEvent']]],
   ['setscenecomponentrotation',['SetSceneComponentRotation',['../class_u_horizon_tween_scene_component_event.html#a5c8d14da73f307a86a3280a0e03ee47c',1,'UHorizonTweenSceneComponentEvent']]],

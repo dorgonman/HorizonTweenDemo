@@ -4,6 +4,7 @@ var searchData=
   ['getactorlocation',['GetActorLocation',['../class_u_horizon_tween_actor_event.html#aa8a508b5a1b488014ebdc65da2794e35',1,'UHorizonTweenActorEvent']]],
   ['getactorrotation',['GetActorRotation',['../class_u_horizon_tween_actor_event.html#a0a024622c384de5be9c3c70691cdb26d',1,'UHorizonTweenActorEvent']]],
   ['getactorscale',['GetActorScale',['../class_u_horizon_tween_actor_event.html#ad6fd51d2322850bacdcf2d097f701351',1,'UHorizonTweenActorEvent']]],
+  ['getchildcomponentbyname',['GetChildComponentByName',['../class_u_horizon_tween_function_library.html#a8b0669ffb86386e46aff653d0457a8e6',1,'UHorizonTweenFunctionLibrary']]],
   ['getcurrentalpha',['GetCurrentAlpha',['../class_u_horizon_tween_event.html#aac6a77d25fc062f73a7735d85ab3e435',1,'UHorizonTweenEvent']]],
   ['getcurrentduration',['GetCurrentDuration',['../class_u_horizon_tween_event.html#a8188a6e63bb8abaa964c429d662b9dc1',1,'UHorizonTweenEvent']]],
   ['getcurrentnumofloop',['GetCurrentNumOfLoop',['../class_u_horizon_tween_event.html#aa9792e6401f266ea46b4882e3e341637',1,'UHorizonTweenEvent']]],
