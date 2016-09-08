@@ -9,6 +9,8 @@
 
 The goal of thie plugin is to provide on the fly tweening animation for UE4 with full control of tween event.
 
+You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.net/ue4/horizon_tween_plugin/doc/doxygen/html/index.html)  
+
 -----------------------  
 System Requirements
 -----------------------  
@@ -38,7 +40,7 @@ List of Modules: HorizonTween (Runtime)
 
 Intended Platform: All Platforms  
 
-Platforms Tested: Win32, Win64, Android, Mac  
+Platforms Tested: Windows, Android, Mac  
 
 Demo Project: https://github.com/dorgonman/HorizonTweenDemo 
 
@@ -81,5 +83,7 @@ email: dorgonman@hotmail.com
 
 -----------------------
  Version History
------------------------
-- NEW: First Version including core features.
+-----------------------  
+
+* 1.0.0
+ - NEW: First Version including core features.
