@@ -64,6 +64,14 @@ The core feature in this plugin:
 
 * TweenSystem event control method: StopTweenEventByName, PlayTweenEventByName, PauseTweenEventByName, ResumeTweenEventByName, RemoveTweenEventByName, StopAllTweenEvent, PlayAllTweenEvent, PauseAllTweenEvent, ResumeAllTweenEvent, RemoveAllTweenEvent.  
 
+* About 30 type of Lerp mode are implemented: Linear Lerp, BounceInOut, InterpSinInOut...you can also design custom curve in UE4 editor if default implemented lerp mode didn't meet required.  
+
+* Implemented PlayMode: Forward, Reverse and PingPong.  
+
+* Use NumOfLoop, Duration, DelayInit and DelayLoop in TweenEvent parameter to control loop behavior.  
+
+* Use bSweep, bTeleport, bCollideAndFinishEvent and SweepHitResult in TweenEvent parameter to control collision behavior.  
+
 -----------------------
 Contact and Support
 -----------------------  
