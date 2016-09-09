@@ -44,7 +44,7 @@ Platforms Tested: Windows, Android, Mac
 
 Demo Project: https://github.com/dorgonman/HorizonTweenDemo 
 
-DemoVideo: https://www.youtube.com/watch?v=GQBd2qAEpCg&feature=youtu.be  
+DemoVideo: https://www.youtube.com/watch?v=8AbLq0jagak&feature=youtu.be  
 
 -----------------------
 What does your plugin do/What is the intent of your plugin
