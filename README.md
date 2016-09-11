@@ -7,7 +7,7 @@
 </h2>
 ----------------------------------------------  
 
-The goal of thie plugin is to provide on the fly tweening animation for UE4 with full control of tween event.
+The goal of this plugin is to provide on the fly tweening animation for UE4 with full control of tween event.
 
 You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.net/ue4/horizon_tween_plugin/doc/doxygen/html/index.html)  
 
