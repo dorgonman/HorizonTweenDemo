@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['onaddtweenevent',['OnAddTweenEvent',['../class_a_horizon_tween_system.html#a1c96b7715da06129b9e14c36b15d2af4',1,'AHorizonTweenSystem']]],
+  ['onaddtweeneventnative',['OnAddTweenEventNative',['../class_a_horizon_tween_system.html#aa4134e008b5ec24020bc83ce9eea1259',1,'AHorizonTweenSystem']]],
   ['ontweenfinished',['OnTweenFinished',['../class_u_horizon_tween_event.html#ad70974e3f5a392ddba82630bb06d3f50',1,'UHorizonTweenEvent']]],
   ['ontweenfinishednative',['OnTweenFinishedNative',['../class_u_horizon_tween_event.html#a386f3e1b5683bc02380ed3edcc0791ab',1,'UHorizonTweenEvent']]],
   ['ontweenloop',['OnTweenLoop',['../class_u_horizon_tween_event.html#adc1bb8e4c4869a9ca5c337447bb930f9',1,'UHorizonTweenEvent']]],
