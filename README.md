@@ -87,3 +87,9 @@ email: dorgonman@hotmail.com
 
 * 1.0.0
  - NEW: First Version including core features.
+
+*1.0.1 - FIX package error by adding category to all parameter, ref: https://answers.unrealengine.com/que...de-plugin.html
+
+*1.1.0
+[update] upgrade engine to 4.14
+[new] add FinishTweenEventByName and FinishAllTweenEvent with param bTweenToEnd that can control if we want to set current tween alpha to 1 before finish the event.
