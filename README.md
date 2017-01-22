@@ -15,7 +15,7 @@ You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.
 System Requirements
 -----------------------  
 
-Tested UnrealEngine version: 4.12, 4.13
+Tested UnrealEngine version: 4.12, 4.13, 4.14, 4.15
 
 -----------------------
 Installation Guide
@@ -95,4 +95,5 @@ email: dorgonman@hotmail.com
 [new] add FinishTweenEventByName and FinishAllTweenEvent with param bTweenToEnd that can control if we want to set current tween alpha to 1 before finish the event.
 
 *1.2.0
+[update] upgrade engine to 4.15
 [new] Add HorizonTweenSystemProxy for blueprint user, now you can create an async node in EventGraph for all TweenEvent. All tween creation method put under HorizonPlugin|TweenSystemProxy category. Please check http://horizon-studio.net/ue4/horizon_tween_plugin/doc/doxygen/html/index.html for more detail.
