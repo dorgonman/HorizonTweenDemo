@@ -7,6 +7,7 @@ var searchData=
   ['backinout',['BackInOut',['../namespace_e_horizon_tween_lerp_mode.html#a9e7cf8eefcd6cc7cbabbd81e9829677baae9e3ffa132814da4bca4931834dfa23',1,'EHorizonTweenLerpMode']]],
   ['backout',['BackOut',['../namespace_e_horizon_tween_lerp_mode.html#a9e7cf8eefcd6cc7cbabbd81e9829677ba2cc1f2da3d49acb2ae02d77b3a9bc0f2',1,'EHorizonTweenLerpMode']]],
   ['bcollideandfinishevent',['bCollideAndFinishEvent',['../struct_f_horizon_tween_event_transform_param.html#aad130261c8c8d02ec8d34a4fcaf391e8',1,'FHorizonTweenEventTransformParam']]],
+  ['bcollideandfinisheventtweentoend',['bCollideAndFinishEventTweenToEnd',['../struct_f_horizon_tween_event_transform_param.html#a81918b589bd9d811cab8df73ca83bd53',1,'FHorizonTweenEventTransformParam']]],
   ['beginplay',['BeginPlay',['../class_a_horizon_tween_system.html#a1ab3af59d8e0d088c71adf3ad0fcfae7',1,'AHorizonTweenSystem']]],
   ['blooptweenlist',['bLoopTweenList',['../struct_f_horizon_tween_event_tween_list_implement_parameters.html#a46a25364e9d83592f50a12823aff2a28',1,'FHorizonTweenEventTweenListImplementParameters']]],
   ['bounceeasein',['BounceEaseIn',['../class_u_horizon_tween_function_library.html#aabaee99730e27990ab66481bb197395c',1,'UHorizonTweenFunctionLibrary']]],

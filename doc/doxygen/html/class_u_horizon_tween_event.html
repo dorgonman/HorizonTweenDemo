@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">HorizonTweenPlugin
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.2.0</span>
    </div>
   </td>
  </tr>
@@ -103,6 +103,8 @@ Inheritance diagram for UHorizonTweenEvent:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adab47791da7c87569ae0922c631a73be"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_horizon_tween_event.html#adab47791da7c87569ae0922c631a73be">UHorizonTweenEvent</a> ()</td></tr>
 <tr class="separator:adab47791da7c87569ae0922c631a73be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae71aa90ff361ced1dd925ed82525a76b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_horizon_tween_event.html#ae71aa90ff361ced1dd925ed82525a76b">~UHorizonTweenEvent</a> ()</td></tr>
+<tr class="separator:ae71aa90ff361ced1dd925ed82525a76b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a307e1ad7ea62492382e7e67f040777b8"><td class="memTemplParams" colspan="2">template&lt;typename TDerivedPtr , typename TEventParam &gt; </td></tr>
 <tr class="memitem:a307e1ad7ea62492382e7e67f040777b8"><td class="memTemplItemLeft" align="right" valign="top">FORCEINLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_u_horizon_tween_event.html#a307e1ad7ea62492382e7e67f040777b8">InitEvent</a> (const <a class="el" href="struct_f_horizon_tween_event_parameters.html">FHorizonTweenEventParameters</a> &amp;eventParam, TEventParam &amp;&amp;eventImplementParam)</td></tr>
 <tr class="separator:a307e1ad7ea62492382e7e67f040777b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,8 +141,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9e6d671163dbbaac2bb00a8bd0975f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2415322ed391000e8fb34b1517a8850"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_horizon_tween_event.html#af2415322ed391000e8fb34b1517a8850">Resume</a> ()</td></tr>
 <tr class="separator:af2415322ed391000e8fb34b1517a8850"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6a127a5acb89e455142887610714104"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_horizon_tween_event.html#af6a127a5acb89e455142887610714104">Finish</a> ()</td></tr>
-<tr class="separator:af6a127a5acb89e455142887610714104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6565582030630a1011fbc70a678edc2c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_horizon_tween_event.html#a6565582030630a1011fbc70a678edc2c">Finish</a> (bool bTweenToEnd)</td></tr>
+<tr class="separator:a6565582030630a1011fbc70a678edc2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac392dfd44ca77a4bfe2af7b3d47a0f07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_horizon_tween_event.html#ac392dfd44ca77a4bfe2af7b3d47a0f07">SetFreeze</a> (bool b)</td></tr>
 <tr class="separator:ac392dfd44ca77a4bfe2af7b3d47a0f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65068015a5ee880a67aeb989d0c214a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_horizon_tween_event.html#a65068015a5ee880a67aeb989d0c214a8">IsFreeze</a> ()</td></tr>
@@ -239,9 +241,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="af6a127a5acb89e455142887610714104"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6a127a5acb89e455142887610714104">&sect;&nbsp;</a></span>Finish()</h2>
+<a id="ae71aa90ff361ced1dd925ed82525a76b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae71aa90ff361ced1dd925ed82525a76b">&sect;&nbsp;</a></span>~UHorizonTweenEvent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,7 +251,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void UHorizonTweenEvent::Finish </td>
+          <td class="memname">UHorizonTweenEvent::~UHorizonTweenEvent </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -262,6 +263,39 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6565582030630a1011fbc70a678edc2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6565582030630a1011fbc70a678edc2c">&sect;&nbsp;</a></span>Finish()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UHorizonTweenEvent::Finish </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bTweenToEnd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Finish this tween event </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bTweenToEnd</td><td>flag if we want to set current tween alpha to 1 before finish </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

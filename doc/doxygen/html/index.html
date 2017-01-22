@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">HorizonTweenPlugin
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.2.0</span>
    </div>
   </td>
  </tr>
@@ -73,8 +73,24 @@ $(function() {
 <div class="image">
 <img src="../Resources/Demo10_BP_BindEvent.png" alt="BindCallback"/>
 </div>
+<p>For Plugin Version after 1.2.0, you can also use Proxy creation version in Blueprint, like following image:</p>
+<div class="image">
+<img src="../Resources/HorizonTweenProxyCreate.png" alt="HorizonTweenSystemProxy"/>
+</div>
+<p>You can see there has two BP node, first one is old method, you can still create tween event with this method, but second BP node are more convenient, because it already has OnTweenStart, OnTweenUpdate, OnTweenLoop, OnTweenFinished callback pin that you don't need to bind callback event manually. You can find those method by right click in EventGraph, all tween creation method put under HorizonPlugin|TweenSystemProxy category.</p>
 <p>For C++ user, you can bind Callback using following method: <a href="https://docs.unrealengine.com/latest/INT/Programming/UnrealArchitecture/Delegates/Multicast/index.html">Check all supported callback binding method here</a></p>
 <p>Sample Code: </p><div class="fragment"><div class="line"> <span class="comment">// need mark UFUNCTION() in header</span></div><div class="line"><span class="keywordtype">void</span> AYourClass::MyTweenStartFunc(<a class="code" href="class_u_horizon_tween_event.html">UHorizonTweenEvent</a>* pTweenEvent){  </div><div class="line"></div><div class="line">     <span class="comment">// fire your custom function here when tween start</span></div><div class="line"></div><div class="line">}</div><div class="line"><span class="keywordtype">void</span> AYourClass::OnMyTweenLoop(<a class="code" href="class_u_horizon_tween_event.html">UHorizonTweenEvent</a>* pTweenEvent){</div><div class="line">     <span class="comment">//fire your custom function here when begin tween loop</span></div><div class="line">}</div><div class="line"><span class="keywordtype">void</span> AYourClass::YourFunction(<a class="code" href="class_u_horizon_tween_event.html">UHorizonTweenEvent</a>* pEvent){</div><div class="line"></div><div class="line"></div><div class="line">     pEvent-&gt;<a class="code" href="class_u_horizon_tween_event.html#a0b9a5351078d64f55d07bfca6d158c15">OnTweenStartNative</a>.AddUFunction(<span class="keyword">this</span>, <span class="stringliteral">&quot;MyTweenStartFunc&quot;</span>);</div><div class="line"></div><div class="line">     pEvent-&gt;<a class="code" href="class_u_horizon_tween_event.html#aee24f8c0d7f45a15a81ef56bd34ab9b6">OnTweenLoopNative</a>.AddUObject(<span class="keyword">this</span>, &amp;AYourClass::OnMyTweenLoop);</div><div class="line"></div><div class="line"></div><div class="line">     pEvent-&gt;<a class="code" href="class_u_horizon_tween_event.html#a4df1eb73c7528503b814c1a648d0044f">OnTweenUpdateNative</a>.AddLambda([](<a class="code" href="class_u_horizon_tween_event.html">UHorizonTweenEvent</a>* pTweenEvent) {</div><div class="line">         <span class="comment">// fire your custom function here when tween update</span></div><div class="line">     });</div><div class="line"></div><div class="line">     pEvent-&gt;<a class="code" href="class_u_horizon_tween_event.html#a386f3e1b5683bc02380ed3edcc0791ab">OnTweenFinishedNative</a>.AddLambda([<span class="keyword">this</span>](<a class="code" href="class_u_horizon_tween_event.html">UHorizonTweenEvent</a>* pTweenEvent) {</div><div class="line">         <span class="comment">// fire your custom function here when tween finished.</span></div><div class="line">     });</div><div class="line"></div><div class="line">}</div></div><!-- fragment --><hr/>
+ <h2>Q2. What is the differnet between HorizonTweenSystemProxy and HorizonTweenSystem? </h2>
+<p>Basically they are doing samething that you can use both method to create same function, like following picture:</p>
+<div class="image">
+<img src="../Resources/HorizonTweenProxyCreate.png" alt="ProxyCreate"/>
+</div>
+<p>The difference is that HorizonTweenSystemProxy can be only used in blueprint, it is inheritated from BlueprintAsyncActionBase (with clock mark ) that bind all default callback for you. It is convenient for BP user in some case, but like other AsyncNode in ue4, it can only be acessed from BP Event Graph. If you want to use plugin in C++ or BP function, please use HorizonTweenSystem instead.</p>
+<p>Following picture shows BP category that you can find those async proxy node in BP:</p>
+<div class="image">
+<img src="../Resources/HorizonTweenProxy.png" alt="AllProxyCreateEvent"/>
+</div>
+<hr/>
  </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
