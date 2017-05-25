@@ -4,9 +4,12 @@ using UnrealBuildTool;
 
 public class HorizonTweenDemo : ModuleRules
 {
-	public HorizonTweenDemo(TargetInfo Target)
-	{
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+	public HorizonTweenDemo(ReadOnlyTargetRules Target)
+        : base(Target)
+    {
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

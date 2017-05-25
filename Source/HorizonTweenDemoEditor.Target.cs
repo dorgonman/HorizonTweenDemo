@@ -5,21 +5,11 @@ using System.Collections.Generic;
 
 public class HorizonTweenDemoEditorTarget : TargetRules
 {
-	public HorizonTweenDemoEditorTarget(TargetInfo Target)
-	{
+	public HorizonTweenDemoEditorTarget(TargetInfo Target) : base(Target)
+    {
 		Type = TargetType.Editor;
-	}
+        ExtraModuleNames.AddRange(new string[] { "HorizonTweenDemo" });
+    }
 
-	//
-	// TargetRules interface.
-	//
-
-	public override void SetupBinaries(
-		TargetInfo Target,
-		ref List<UEBuildBinaryConfiguration> OutBuildBinaryConfigurations,
-		ref List<string> OutExtraModuleNames
-		)
-	{
-		OutExtraModuleNames.AddRange( new string[] { "HorizonTweenDemo" } );
-	}
+	
 }
