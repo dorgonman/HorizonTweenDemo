@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['ue_5fhorizontween_5fdisplay',['UE_HORIZONTWEEN_DISPLAY',['../_source_2_runtime_2_horizon_tween_2_private_2_horizon_tween_private_p_c_h_8h.html#a736794d4439d9d30087cd15aea8adfd6',1,'HorizonTweenPrivatePCH.h']]],
-  ['ue_5fhorizontween_5ferror',['UE_HORIZONTWEEN_ERROR',['../_source_2_runtime_2_horizon_tween_2_private_2_horizon_tween_private_p_c_h_8h.html#a7fe80949c73fc7e39041c370805bff6c',1,'HorizonTweenPrivatePCH.h']]],
-  ['ue_5fhorizontween_5ffatal',['UE_HORIZONTWEEN_FATAL',['../_source_2_runtime_2_horizon_tween_2_private_2_horizon_tween_private_p_c_h_8h.html#a486484f363e37bde97cea20dea7dc2bf',1,'HorizonTweenPrivatePCH.h']]],
-  ['ue_5fhorizontween_5flog',['UE_HORIZONTWEEN_LOG',['../_source_2_runtime_2_horizon_tween_2_private_2_horizon_tween_private_p_c_h_8h.html#a6b410521a3a443775efa537295fd8e87',1,'HorizonTweenPrivatePCH.h']]],
-  ['ue_5fhorizontween_5fverbose',['UE_HORIZONTWEEN_VERBOSE',['../_source_2_runtime_2_horizon_tween_2_private_2_horizon_tween_private_p_c_h_8h.html#a9af91b81af18097958de1df80a05ca38',1,'HorizonTweenPrivatePCH.h']]],
-  ['ue_5fhorizontween_5fvery_5fverbose',['UE_HORIZONTWEEN_VERY_VERBOSE',['../_source_2_runtime_2_horizon_tween_2_private_2_horizon_tween_private_p_c_h_8h.html#a7ae41e540c33a1dc84a3a7a3cee930ec',1,'HorizonTweenPrivatePCH.h']]],
-  ['ue_5fhorizontween_5fwarning',['UE_HORIZONTWEEN_WARNING',['../_source_2_runtime_2_horizon_tween_2_private_2_horizon_tween_private_p_c_h_8h.html#a336220086d3e3153fc7129fb594c4dc4',1,'HorizonTweenPrivatePCH.h']]]
+  ['databasesupport_5fapi',['DATABASESUPPORT_API',['../_definitions_8_horizon_tween_8h.html#a6b0e182234cdc3bf2388b42f6b4612df',1,'Definitions.HorizonTween.h']]],
+  ['deprecated_5fforgame',['DEPRECATED_FORGAME',['../_definitions_8_horizon_tween_8h.html#ae0568aad66eaf59fc3d2c86cba8b1e0f',1,'DEPRECATED_FORGAME():&#160;Definitions.HorizonTween.h'],['../_definitions_8_horizon_tween_8h.html#ae0568aad66eaf59fc3d2c86cba8b1e0f',1,'DEPRECATED_FORGAME():&#160;Definitions.HorizonTween.h']]],
+  ['depth_5f32_5fbit_5fconversion',['DEPTH_32_BIT_CONVERSION',['../_definitions_8_horizon_tween_8h.html#adf9fd2d0f9437c9f157216a6e01220fa',1,'Definitions.HorizonTween.h']]],
+  ['detailcustomizations_5fapi',['DETAILCUSTOMIZATIONS_API',['../_definitions_8_horizon_tween_8h.html#ab3b2aa93ddeab372c1585f06c042fabc',1,'Definitions.HorizonTween.h']]],
+  ['directorywatcher_5fapi',['DIRECTORYWATCHER_API',['../_definitions_8_horizon_tween_8h.html#aef83029347f3cd61e0c6c81ae1de7d92',1,'Definitions.HorizonTween.h']]],
+  ['documentation_5fapi',['DOCUMENTATION_API',['../_definitions_8_horizon_tween_8h.html#a74fd48aaa2f746d6b8b55b4c5f59d1a7',1,'Definitions.HorizonTween.h']]]
 ];

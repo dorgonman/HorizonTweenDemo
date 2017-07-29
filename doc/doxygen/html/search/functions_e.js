@@ -27,5 +27,6 @@ var searchData=
   ['startupmodule',['StartupModule',['../class_f_horizon_tween_module.html#a930567d1c4b0c707e045aa08607793bf',1,'FHorizonTweenModule']]],
   ['stop',['Stop',['../class_u_horizon_tween_event.html#a1af5a2f639ea0628d248f660b3b538fc',1,'UHorizonTweenEvent']]],
   ['stopalltweenevent',['StopAllTweenEvent',['../class_a_horizon_tween_system.html#a59fbbdf5d9c9c54e64d37b002214133d',1,'AHorizonTweenSystem']]],
-  ['stoptweeneventbyname',['StopTweenEventByName',['../class_a_horizon_tween_system.html#a1a26cce0b9484872cfeaa1265273b98b',1,'AHorizonTweenSystem']]]
+  ['stoptweeneventbyname',['StopTweenEventByName',['../class_a_horizon_tween_system.html#a1a26cce0b9484872cfeaa1265273b98b',1,'AHorizonTweenSystem']]],
+  ['stoptweeneventbyobject',['StopTweenEventByObject',['../class_a_horizon_tween_system.html#a32fd38cfc1071221139500c3bf673d9a',1,'AHorizonTweenSystem']]]
 ];
