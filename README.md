@@ -1,7 +1,7 @@
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonTweenPlugin<br>
-					1.2.1   <br>
+					4.17.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -15,7 +15,7 @@ You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.
 System Requirements
 -----------------------  
 
-Tested UnrealEngine version: 4.12, 4.13, 4.14, 4.15, 4.16
+Tested UnrealEngine version: 4.12, 4.13, 4.14, 4.15, 4.16, 4.17
 
 -----------------------
 Installation Guide
@@ -84,16 +84,23 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 -----------------------  
+*4.17.0
+- UPDATE: Update to engine 4.17.0, and plugin's VersionName will also follow engine's version.
+- UPDATE: Now BP user can call GetCurrentLerp in any TweenEvent for customize their own tween event.
+- UPDATE: Refactor parameter name: pTarget to TweenTarget for BP display in TweenSystem's tween creating function.
+- NEW: implement StopTweenEventByObject, PlayTweenEventByObject, ResumeTweenEventByObject, RemoveTweenEventByObject, FinishTweenEventByObject in TweenSystem. If your UObject are associated with a TweenEvent in TweenSystem, then it will execute corresponding action.
+
+
 *1.2.1
 - upgrade engine version to 4.16
 
 *1.2.0
-[update] upgrade engine version to 4.15
-[new] Add HorizonTweenSystemProxy for blueprint user, now you can create an async node in EventGraph for all TweenEvent. All tween creation method put under HorizonPlugin|TweenSystemProxy category. Please check http://horizon-studio.net/ue4/horizon_tween_plugin/doc/doxygen/html/index.html for more detail.
+- UPDATE: upgrade engine version to 4.15
+- NEW: Add HorizonTweenSystemProxy for blueprint user, now you can create an async node in EventGraph for all TweenEvent. All tween creation method put under HorizonPlugin|TweenSystemProxy category. Please check http://horizon-studio.net/ue4/horizon_tween_plugin/doc/doxygen/html/index.html for more detail.
 
 *1.1.0
-[update] upgrade engine to 4.14
-[new] add FinishTweenEventByName and FinishAllTweenEvent with param bTweenToEnd that can control if we want to set current tween alpha to 1 before finish the event.
+- UPDATE: upgrade engine to 4.14
+- MEW: add FinishTweenEventByName and FinishAllTweenEvent with param bTweenToEnd that can control if we want to set current tween alpha to 1 before finish the event.
 
 *1.0.1 - FIX package error by adding category to all parameter, ref: https://answers.unrealengine.com/que...de-plugin.html
 *1.0.0
