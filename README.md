@@ -89,6 +89,10 @@ email: dorgonman@hotmail.com
 - UPDATE: Now BP user can call GetCurrentLerp in any TweenEvent for customize their own tween event.
 - UPDATE: Refactor parameter name: pTarget to TweenTarget for BP display in TweenSystem's tween creating function.
 - NEW: implement StopTweenEventByObject, PlayTweenEventByObject, ResumeTweenEventByObject, RemoveTweenEventByObject, FinishTweenEventByObject in TweenSystem. If your UObject are associated with a TweenEvent in TweenSystem, then it will execute corresponding action.
+- NEW: implement global DefaultTweenSystem and CreateDefaultTweenEventFunctions for all exist tween events.
+- New: implement CreateTweenBaseTypes(float FVector, FVector2D, FRotator, SplinePath)
+- Refactor: redesign blueprint function Category, all functions in plugins are put into relative Category group. Currently all Plugin functions are grouped into following Category: HorizonPlugin|TweenFunctionLibrary, HorizonPlugin|TweenSystemLibrary, HorizonPlugin|TweenSystemLibraryProxy, HorizonPlugin|TweenSystemProxy. TweenFunctions in TweenSystemLibrary and TweenSystemLibraryProxy will use global DefaultTweenSystem to create TweenEvents.
+- Deprecated: paramImpl.bShortestPath in CreateTweenActorRotatorFromToEventWithParam and CreateTweenSceneComponentRotatorFromToEventWithParam are deprecated and will be removed in future plugin release, please recreate paramImpl and use bUseShortestPath instead.
 
 
 *1.2.1
