@@ -1,7 +1,7 @@
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonTweenPlugin<br>
-					4.17.0   <br>
+					4.18.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -15,7 +15,7 @@ You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.
 System Requirements
 -----------------------  
 
-Tested UnrealEngine version: 4.12, 4.13, 4.14, 4.15, 4.16, 4.17
+Tested UnrealEngine version: 4.12, 4.13, 4.14, 4.15, 4.16, 4.17, 4.18
 
 -----------------------
 Installation Guide
@@ -84,6 +84,13 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 -----------------------  
+*4.18.0
+- REFACTOR: Change the inheritance of AHorizonTweenSystem from AActor to AInfo.
+
+
+
+
+
 *4.17.0
 - UPDATE: Update to engine 4.17.0, and plugin's VersionName will also follow engine's version.
 - UPDATE: Now BP user can call GetCurrentLerp in any TweenEvent for customize their own tween event.
