@@ -4,7 +4,7 @@
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonTweenPlugin<br>
-					4.18.0   <br>
+					4.19.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -18,7 +18,7 @@ You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.
 System Requirements
 -----------------------  
 
-Tested UnrealEngine version: 4.12, 4.13, 4.14, 4.15, 4.16, 4.17, 4.18
+Tested UnrealEngine version: 4.12, 4.13, 4.14, 4.15, 4.16, 4.17, 4.18, 4.19
 
 -----------------------
 Installation Guide
@@ -87,11 +87,17 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 -----------------------  
+
+*4.19.0
+- New: MultiTween Event for Actor, SceneCompoent and Widget, [check video demo here](https://www.youtube.com/edit?o=U&video_id=Tg0sqlCbAHU)
+- New: implement GetTimeRange for FHorizonTweenEventCustomCurve and FHorizonTweenEventCustomColorCurve
+- Refactor: change .h and .cpp folder structure
+- Refactor: meta = (EditCondition = "bUseCustomCurve") for Custom curve
+- Refactor EventMacro
+- Refactor: Change widget dependency module from PrivateDependencyModuleName to PublicDependencyModuleName
+
 *4.18.0
 - REFACTOR: Change the inheritance of AHorizonTweenSystem from AActor to AInfo.
-
-
-
 
 
 *4.17.0
