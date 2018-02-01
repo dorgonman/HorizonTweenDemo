@@ -1,4 +1,4 @@
-VSTS build status: ![VSTS Build Status](https://hsgame.visualstudio.com/_apis/public/build/definitions/aeaa314b-7b56-4733-89fa-67e9bccfb809/2/badge)
+VSTS Build Status: ![VSTS Build Status](https://hsgame.visualstudio.com/_apis/public/build/definitions/aeaa314b-7b56-4733-89fa-67e9bccfb809/2/badge)
 
 
 Note: 
