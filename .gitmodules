@@ -1,6 +1,6 @@
 [submodule "Plugins/HorizonTweenPlugin"]
 	path = Plugins/HorizonTweenPlugin
-	url = https://hsgame.visualstudio.com/UE4HorizonPlugin/_git/HorizonTweenDemo
+	url = https://hsgame.visualstudio.com/UE4HorizonPlugin/_git/HorizonTweenPlugin
 [submodule "ue_ci_scripts"]
 	path = ue_ci_scripts
 	url = https://hsgame.visualstudio.com/UEHorizonBuildScript/_git/ue_ci_scripts
