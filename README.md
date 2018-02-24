@@ -94,11 +94,13 @@ email: dorgonman@hotmail.com
 
 *4.19.0
 - New: MultiTween Event for Actor, SceneCompoent and Widget, [check video demo here](https://www.youtube.com/edit?o=U&video_id=Tg0sqlCbAHU)
-- New: implement GetTimeRange for FHorizonTweenEventCustomCurve and FHorizonTweenEventCustomColorCurve
+- New: Implement GetTimeRange for FHorizonTweenEventCustomCurve and FHorizonTweenEventCustomColorCurve
+- New: Add UHorizonTweenEvent::GetTweenSystem
 - Refactor: change .h and .cpp folder structure
 - Refactor: meta = (EditCondition = "bUseCustomCurve") for Custom curve
 - Refactor EventMacro
 - Refactor: Change widget dependency module from PrivateDependencyModuleName to PublicDependencyModuleName
+- Refactor Classes folders
 
 *4.18.0
 - REFACTOR: Change the inheritance of AHorizonTweenSystem from AActor to AInfo.
