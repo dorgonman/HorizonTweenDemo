@@ -93,7 +93,7 @@ email: dorgonman@hotmail.com
 -----------------------  
 
 *4.19.0
-- New: MultiTween Event for Actor, SceneCompoent and Widget, [check video demo here](https://www.youtube.com/edit?o=U&video_id=Tg0sqlCbAHU)
+- New: MultiTween Event for Actor, SceneCompoent and Widget, [check video demo here](https://www.youtube.com/watch?v=Tg0sqlCbAHU)
 - New: Implement GetTimeRange for FHorizonTweenEventCustomCurve and FHorizonTweenEventCustomColorCurve
 - New: Add UHorizonTweenEvent::GetTweenSystem
 - Refactor: change .h and .cpp folder structure
