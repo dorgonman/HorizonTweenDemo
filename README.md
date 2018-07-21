@@ -8,7 +8,7 @@ master branch may be unstable since it is in development, please switch to tags,
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonTweenPlugin<br>
-					4.19.0   <br>
+					4.20.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -22,7 +22,7 @@ You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.
 System Requirements
 -----------------------  
 
-Tested UnrealEngine version: 4.12, 4.13, 4.14, 4.15, 4.16, 4.17, 4.18, 4.19
+Tested UnrealEngine version: 4.12, 4.13, 4.14, 4.15, 4.16, 4.17, 4.18, 4.19, 4.20
 
 -----------------------
 Installation Guide
