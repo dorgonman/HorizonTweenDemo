@@ -92,6 +92,13 @@ email: dorgonman@hotmail.com
  Version History
 ----------------------- 
 
+*4.20.1
+- BugFix: Expose bUseCustomCurve for BP to fix bUseCustomCurve are set to true by engine.
+- BugFix: CurrentDuration and CurrentAlpha value in UHorizonTweenEvent::Finish(bool bTweenToEnd = true)
+- BugFix: CurrentAlpha in UHorizonTweenEvent::Finish for EHorizonTweenPlayMode::PingPong
+
+
+
 *4.20.0
 - New: Flag to Pause TweenEvent when TweenLoop is triggered(TweenEventParam.bPauseOnTweenLoop)
 
