@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>UE4Editor-HorizonTweenDemo</id>
+    <version>4.20.0.1</version>
+    <authors>dorgon</authors>
+    <owners>dorgon</owners>
+    <licenseUrl>http://dorgon.horizon-studio.net</licenseUrl>
+    <projectUrl>https://github.com/dorgonman/HorizonTweenDemo</projectUrl>
+    <iconUrl>https://github.com/dorgonman/HorizonTweenDemo</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>HorizonTweenPlugin demo</description>
+    <releaseNotes>https://github.com/dorgonman/HorizonTweenDemo</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>native cpp</tags>
+    <dependencies>
+    </dependencies>
+        <!-- A readme.txt to display when the package is installed -->
+  </metadata>
+  <files>
+        <file src="Binaries/Win64/UE4Editor**" target="Binaries/Win64/" />
+        <file src="Plugins/HorizonTweenPlugin/Binaries/Win64/UE4Editor**" target="Plugins/HorizonTweenPlugin/Binaries/Win64/" />
+  </files>
+</package>
