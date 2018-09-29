@@ -1,4 +1,4 @@
-![VSTS CI status](https://hsgame.visualstudio.com/_apis/public/build/definitions/aeaa314b-7b56-4733-89fa-67e9bccfb809/2/badge)
+![VSTS CI status](https://hsgame.visualstudio.com/UE4HorizonPlugin/_apis/build/status/HorizonTweenPluginDemo-CI)
 
 public feed: nuget.org  
 
@@ -6,7 +6,7 @@ public feed: nuget.org
 
 private feed(only for internal use): 
 
-[![Azure Artifacts package in feed in ](https://hsgame.feeds.visualstudio.com/_apis/public/Packaging/Feeds/d5ed5eb7-dd62-4af0-a6a4-8862be2b9f7f/Packages/8a06a9fa-1629-42ad-a67b-0ced8c52bdfd/Badge)](https://hsgame.visualstudio.com/_Packaging?feed=d5ed5eb7-dd62-4af0-a6a4-8862be2b9f7f&package=8a06a9fa-1629-42ad-a67b-0ced8c52bdfd&preferRelease=true&_a=package)
+[![Azure Artifacts package in  feed in ](https://hsgame.feeds.visualstudio.com/_apis/public/Packaging/Feeds/d5ed5eb7-dd62-4af0-a6a4-8862be2b9f7f/Packages/8a06a9fa-1629-42ad-a67b-0ced8c52bdfd/Badge)](https://hsgame.visualstudio.com/_Packaging?feed=d5ed5eb7-dd62-4af0-a6a4-8862be2b9f7f&package=8a06a9fa-1629-42ad-a67b-0ced8c52bdfd&preferRelease=true&_a=package)
 
 
 
