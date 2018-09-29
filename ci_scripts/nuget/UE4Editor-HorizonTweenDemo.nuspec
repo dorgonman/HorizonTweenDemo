@@ -2,17 +2,17 @@
 <package>
   <metadata>
     <id>UE4Editor-HorizonTweenDemo</id>
-    <version>4.20.0.1</version>
-    <authors>dorgon</authors>
-    <owners>dorgon</owners>
+    <version>0.0.0.1</version>
+    <authors>dorgon.chang</authors>
+    <owners>dorgon.chang</owners>
     <licenseUrl>http://dorgon.horizon-studio.net</licenseUrl>
     <projectUrl>https://github.com/dorgonman/HorizonTweenDemo</projectUrl>
     <iconUrl>https://github.com/dorgonman/HorizonTweenDemo</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>HorizonTweenPlugin demo</description>
+    <description>HorizonTween Demo Project Editor dll, no source code, only for Win64 editor</description>
     <releaseNotes>https://github.com/dorgonman/HorizonTweenDemo</releaseNotes>
     <copyright>Copyright 2018</copyright>
-    <tags>native cpp</tags>
+    <tags>Native Cpp UE4 Editor Demo</tags>
     <dependencies>
     </dependencies>
         <!-- A readme.txt to display when the package is installed -->
@@ -20,5 +20,8 @@
   <files>
         <file src="Binaries/Win64/UE4Editor**" target="" />
         <file src="Plugins/HorizonTweenPlugin/Binaries/Win64/UE4Editor**" target="" />
+        <file src="Plugins/HorizonTweenPlugin/Config/**" target="" />
+        <file src="Plugins/HorizonTweenPlugin/Resources/**" target="" />
+        <file src="Plugins/HorizonTweenPlugin/HorizonTweenPlugin.uplugin" target="Plugins/HorizonTweenPlugin/" />
   </files>
 </package>
