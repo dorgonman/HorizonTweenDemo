@@ -41,7 +41,7 @@ You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.
 System Requirements
 -----------------------  
 
-Tested UnrealEngine version: 4.12, 4.13, 4.14, 4.15, 4.16, 4.17, 4.18, 4.19, 4.20
+Supported UnrealEngine version: 4.12-4.21
 
 -----------------------
 Installation Guide
@@ -111,7 +111,7 @@ email: dorgonman@hotmail.com
  Version History
 ----------------------- 
 *4.21.0
-
+- Update to 4.21
 
 *4.20.1
 - BugFix: Expose bUseCustomCurve for BP to fix bUseCustomCurve are set to true by engine.
