@@ -110,86 +110,96 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 ----------------------- 
-*4.21.0
-- BugFix: CurrentAlpha in UHorizonTweenEvent::Finish for EHorizonTweenPlayMode::PingPong
+*4.21.0  
 
-- BugFix: Expose bUseCustomCurve for BP to fix bUseCustomCurve are set to true by engine.  
+	BugFix: CurrentAlpha in UHorizonTweenEvent::Finish for EHorizonTweenPlayMode::PingPong
 
-- BugFix: CurrentAlpha in Reverse PlayMode of first update is 0(should be 1)
+	BugFix: Expose bUseCustomCurve for BP to fix bUseCustomCurve are set to true by engine.  
 
-- BugFix: CurrentDuration and CurrentAlpha value in UHorizonTweenEvent::Finish(bool bTweenToEnd = true)
+	BugFix: CurrentAlpha in Reverse PlayMode of first update is 0(should be 1)
 
-- Update to 4.21
+	BugFix: CurrentDuration and CurrentAlpha value in UHorizonTweenEvent::Finish(bool bTweenToEnd = true)
 
-
-*4.20.1
-- BugFix: Expose bUseCustomCurve for BP to fix bUseCustomCurve are set to true by engine.
-
-- BugFix: CurrentDuration and CurrentAlpha value in UHorizonTweenEvent::Finish(bool bTweenToEnd = true)
-
-- BugFix: CurrentAlpha in UHorizonTweenEvent::Finish for EHorizonTweenPlayMode::PingPong
+	Update to 4.21
 
 
+*4.20.1  
+
+	BugFix: Expose bUseCustomCurve for BP to fix bUseCustomCurve are set to true by engine.
+
+	BugFix: CurrentDuration and CurrentAlpha value in UHorizonTweenEvent::Finish(bool bTweenToEnd = true)
+
+	BugFix: CurrentAlpha in UHorizonTweenEvent::Finish for EHorizonTweenPlayMode::PingPong
 
 
-*4.20.0
-- New: Flag to Pause TweenEvent when TweenLoop is triggered(TweenEventParam.bPauseOnTweenLoop)
-
-*4.19.0
-- New: MultiTween Event for Actor, SceneCompoent and Widget, [check video demo here](https://www.youtube.com/watch?v=Tg0sqlCbAHU)
-
-- New: Implement GetTimeRange for FHorizonTweenEventCustomCurve and FHorizonTweenEventCustomColorCurve
-
-- New: Add UHorizonTweenEvent::GetTweenSystem
-
-- Refactor: change .h and .cpp folder structure
-
-- Refactor: meta = (EditCondition = "bUseCustomCurve") for Custom curve
-
-- Refactor EventMacro
-
-- Refactor: Change widget dependency module from PrivateDependencyModuleName to PublicDependencyModuleName
-
-- Refactor Classes folders
-
-*4.18.0
-- REFACTOR: Change the inheritance of AHorizonTweenSystem from AActor to AInfo.
 
 
-*4.17.0
-- UPDATE: Update to engine 4.17.0, and plugin's VersionName will also follow engine's version.
+*4.20.0  
 
-- UPDATE: Now BP user can call GetCurrentLerp in any TweenEvent for customize their own tween event.
+	New: Flag to Pause TweenEvent when TweenLoop is triggered(TweenEventParam.bPauseOnTweenLoop)
 
-- UPDATE: Refactor parameter name: pTarget to TweenTarget for BP display in TweenSystem's tween creating function.
+*4.19.0  
 
-- NEW: implement StopTweenEventByObject, PlayTweenEventByObject, ResumeTweenEventByObject, RemoveTweenEventByObject, FinishTweenEventByObject in TweenSystem. If your UObject are associated with a TweenEvent in TweenSystem, then it will execute corresponding action.
+	New: MultiTween Event for Actor, SceneCompoent and Widget, [check video demo here](https://www.youtube.com/watch?v=Tg0sqlCbAHU)
 
-- NEW: implement global DefaultTweenSystem and CreateDefaultTweenEventFunctions for all exist tween events.
+	New: Implement GetTimeRange for FHorizonTweenEventCustomCurve and FHorizonTweenEventCustomColorCurve
 
-- New: implement CreateTweenBaseTypes(float FVector, FVector2D, FRotator, SplinePath)
+	New: Add UHorizonTweenEvent::GetTweenSystem
 
-- Refactor: redesign blueprint function Category, all functions in plugins are put into relative Category group. Currently all Plugin functions are grouped into following Category: HorizonPlugin|TweenFunctionLibrary, HorizonPlugin|TweenSystemLibrary, HorizonPlugin|TweenSystemLibraryProxy, HorizonPlugin|TweenSystemProxy. TweenFunctions in TweenSystemLibrary and TweenSystemLibraryProxy will use global DefaultTweenSystem to create TweenEvents.
+	Refactor: change .h and .cpp folder structure
 
-- Deprecated: paramImpl.bShortestPath in CreateTweenActorRotatorFromToEventWithParam and CreateTweenSceneComponentRotatorFromToEventWithParam are deprecated and will be removed in future plugin release, please recreate paramImpl and use bUseShortestPath instead.
+	Refactor: meta = (EditCondition = "bUseCustomCurve") for Custom curve
+
+	Refactor EventMacro
+
+	Refactor: Change widget dependency module from PrivateDependencyModuleName to PublicDependencyModuleName
+
+	Refactor Classes folders
+
+*4.18.0  
+
+	REFACTOR: Change the inheritance of AHorizonTweenSystem from AActor to AInfo.
 
 
-*1.2.1
-- upgrade engine version to 4.16
+*4.17.0  
 
-*1.2.0
-- UPDATE: upgrade engine version to 4.15
+	UPDATE: Update to engine 4.17.0, and plugin's VersionName will also follow engine's version.
 
-- NEW: Add HorizonTweenSystemProxy for blueprint user, now you can create an async node in EventGraph for all TweenEvent. All tween creation method put under HorizonPlugin|TweenSystemProxy category. Please check http://horizon-studio.net/ue4/horizon_tween_plugin/doc/doxygen/html/index.html for more detail.
+	UPDATE: Now BP user can call GetCurrentLerp in any TweenEvent for customize their own tween event.
+
+	UPDATE: Refactor parameter name: pTarget to TweenTarget for BP display in TweenSystem's tween creating function.
+
+	NEW: implement StopTweenEventByObject, PlayTweenEventByObject, ResumeTweenEventByObject, RemoveTweenEventByObject, FinishTweenEventByObject in TweenSystem. If your UObject are associated with a TweenEvent in TweenSystem, then it will execute corresponding action.
+
+	NEW: implement global DefaultTweenSystem and CreateDefaultTweenEventFunctions for all exist tween events.
+
+	New: implement CreateTweenBaseTypes(float FVector, FVector2D, FRotator, SplinePath)
+
+	Refactor: redesign blueprint function Category, all functions in plugins are put into relative Category group. Currently all Plugin functions are grouped into following Category: HorizonPlugin|TweenFunctionLibrary, HorizonPlugin|TweenSystemLibrary, HorizonPlugin|TweenSystemLibraryProxy, HorizonPlugin|TweenSystemProxy. TweenFunctions in TweenSystemLibrary and TweenSystemLibraryProxy will use global DefaultTweenSystem to create TweenEvents.
+
+	Deprecated: paramImpl.bShortestPath in CreateTweenActorRotatorFromToEventWithParam and CreateTweenSceneComponentRotatorFromToEventWithParam are deprecated and will be removed in future plugin release, please recreate paramImpl and use bUseShortestPath instead.
+
+
+*1.2.1  
+
+	upgrade engine version to 4.16
+
+*1.2.0  
+
+	UPDATE: upgrade engine version to 4.15
+
+	NEW: Add HorizonTweenSystemProxy for blueprint user, now you can create an async node in EventGraph for all TweenEvent. All tween creation method put under HorizonPlugin|TweenSystemProxy category. Please check http://horizon-studio.net/ue4/horizon_tween_plugin/doc/doxygen/html/index.html for more detail.
 
 *1.1.0  
 
-- UPDATE: upgrade engine to 4.14
+	UPDATE: upgrade engine to 4.14
 
-- MEW: add FinishTweenEventByName and FinishAllTweenEvent with param bTweenToEnd that can control if we want to set current tween alpha to 1 before finish the event.
+	MEW: add FinishTweenEventByName and FinishAllTweenEvent with param bTweenToEnd that can control if we want to set current tween alpha to 1 before finish the event.
 
-*1.0.1 
-- FIX package error by adding category to all parameter, ref: https://answers.unrealengine.com/que...de-plugin.html
+*1.0.1   
 
-*1.0.0
- - NEW: First Version including core features.
+	FIX package error by adding category to all parameter, ref: https://answers.unrealengine.com/que...de-plugin.html
+
+*1.0.0  
+
+	NEW: First Version including core features.
