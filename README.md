@@ -111,6 +111,10 @@ email: dorgonman@hotmail.com
  Version History
 ----------------------- 
 *4.21.0
+- BugFix: CurrentAlpha in UHorizonTweenEvent::Finish for EHorizonTweenPlayMode::PingPong
+- BugFix: Expose bUseCustomCurve for BP to fix bUseCustomCurve are set to true by engine.
+- BugFix: CurrentAlpha in Reverse PlayMode of first update is 0(should be 1)
+- BugFix: CurrentDuration and CurrentAlpha value in UHorizonTweenEvent::Finish(bool bTweenToEnd = true)
 - Update to 4.21
 
 *4.20.1
