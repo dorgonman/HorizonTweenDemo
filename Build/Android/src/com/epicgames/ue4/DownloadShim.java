@@ -14,7 +14,7 @@ public class DownloadShim
 	public static Class<DownloaderActivity> GetDownloaderType() { return DownloaderActivity.class; }
 	public static boolean expansionFilesDelivered(Activity activity) {
 		for (OBBData.XAPKFile xf : OBBData.xAPKS) {
-			String fileName = Helpers.getExpansionAPKFileName(activity, xf.mIsMain, xf.mFileVersion);
+			String fileName = Helpers.getExpansionAPKFileName(activity, xf.mIsMain, xf.mFileVersion, OBBData.AppType);
 			GameActivity.Log.debug("Checking for file : " + fileName);
 			String fileForNewFile = Helpers.generateSaveFileName(activity, fileName);
 			String fileForDevFile = Helpers.generateSaveFileNameDevelopment(activity, fileName);
