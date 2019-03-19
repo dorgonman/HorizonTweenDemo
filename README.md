@@ -1,8 +1,8 @@
-![VSTS CI status](https://hsgame.visualstudio.com/UE4HorizonPlugin/_apis/build/status/HorizonTweenPluginDemo-CI)
+[![Build Status](https://hsgame.visualstudio.com/UE4HorizonPlugin/_apis/build/status/HorizonTween/HorizonTweenDemo-Shipping-CI?branchName=master)](https://hsgame.visualstudio.com/UE4HorizonPlugin/_build/latest?definitionId=25&branchName=master)
 
 public feed: nuget.org  
 
-[![nuget.org package in feed in ](https://img.shields.io/nuget/v/UE4Editor-HorizonTweenDemo.svg)](https://www.nuget.org/packages/UE4Editor-HorizonTweenDemo/)
+[![nuget.org package in feed in ](https://img.shields.io/nuget/v/HorizonTweenDemo.svg)](https://www.nuget.org/packages/HorizonTweenDemo/)
 
 private feed(only for internal use): 
 
@@ -12,7 +12,7 @@ private feed(only for internal use):
 
 Note: 
 
-master branch may be unstable since it is in development, please switch to tags, for example: release/4.21.0
+master branch may be unstable since it is in development, please switch to tags, for example: release/4.22.0
 
 
 ----------------------------------------------  
@@ -27,7 +27,7 @@ How to Run Demo Project before purchase:(Only for Win64 editor build, no source 
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonTweenPlugin<br>
-					4.21.0   <br>
+					4.22.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -41,7 +41,7 @@ You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.
 System Requirements
 -----------------------  
 
-Supported UnrealEngine version: 4.12-4.21
+Supported UnrealEngine version: 4.12-4.22
 
 -----------------------
 Installation Guide
@@ -110,6 +110,20 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 ----------------------- 
+
+*4.22.0  
+
+	New: [HorizonTweenSystem] GetTweenSystemWithName  
+
+	New: [HorizonTweenSystemProxy] Add TweenFrom and TweenTo param to HorizonTweenSystemProxy  
+
+	Refactor: Adjust all getter to BlueprintPure
+
+	BugFix:Fix Array has changed during ranged-for iteration warning when add event in tween event callbacks
+
+
+
+
 *4.21.0  
 
 	BugFix: CurrentAlpha in UHorizonTweenEvent::Finish for EHorizonTweenPlayMode::PingPong
