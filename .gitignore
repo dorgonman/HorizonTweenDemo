@@ -14,3 +14,8 @@ Saved
 /.vs
 *.pdb
 /*.nupkg
+/Releases/master/WindowsNoEditor/AssetRegistry.bin
+/Releases/master/WindowsNoEditor/HorizonTweenDemo-WindowsNoEditor.pak
+/Releases/master/WindowsNoEditor/Metadata/DevelopmentAssetRegistry.bin
+/.signature.p7s
+/horizontweendemo.nuspec
