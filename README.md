@@ -9,7 +9,7 @@ public feed: nuget.org
 
 private feed(only for internal use): 
 
-[![HorizonTweenDemo package in UE4HorizonPlugin feed in Azure Artifacts](https://hsgame.feeds.visualstudio.com/_apis/public/Packaging/Feeds/319fdc64-73ff-4910-b3b8-2ee206a67a49/Packages/e975004d-6311-4523-894f-d2fbfaaef875/Badge)](https://hsgame.visualstudio.com/UE4HorizonPlugin/_packaging?_a=package&feed=319fdc64-73ff-4910-b3b8-2ee206a67a49&package=e975004d-6311-4523-894f-d2fbfaaef875&preferRelease=true)
+[![HorizonTweenDemo package in UE4HorizonPlugin feed in Azure Artifacts](https://feeds.dev.azure.com/hsgame/_apis/public/Packaging/Feeds/319fdc64-73ff-4910-b3b8-2ee206a67a49/Packages/e975004d-6311-4523-894f-d2fbfaaef875/Badge)](https://dev.azure.com/hsgame/UE4HorizonPlugin/_packaging?_a=package&feed=319fdc64-73ff-4910-b3b8-2ee206a67a49&package=e975004d-6311-4523-894f-d2fbfaaef875&preferRelease=true)
 
 
 
