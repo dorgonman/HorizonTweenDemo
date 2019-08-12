@@ -115,6 +115,25 @@ email: dorgonman@hotmail.com
  Version History
 ----------------------- 
 
+*4.23.0  
+
+	New: Tween color for UPaperSpriteComponent and WidgetComponent  
+
+	New: Implement CreateTweenActorColorFromToWithParam, CreateTweenActorFadeFromToWithParam, CreateTweenActorFadeIn, CreateTweenActorFadeOut, CreateTweenActorFadeInOut  
+
+	New: Implement CreateTweenActorShake, CreateTweenActorShakeWithParam  
+
+	New: Implement CreateTweenActorRotatorFromToWithParam  
+
+	New: Implement CreateTweenActorScaleIn, CreateTweenActorScaleOut, CreateTweenActorScaleInOut, CreateTweenActorScaleFromToWithParam  
+
+	New: Implement CreateTweenActorMoveFromTo, CreateTweenActorMoveFromToWithParam   
+
+	BugFix: [HorizonTweenSystem] Fix GetNumTweenEvent, should be TweenEventMap.Num() + PendingAddTweenEvenList.Num() - PendingKillTweenEvenList.Num();  
+
+	Refactor: Deprecated CreateTween for default TweenSystem  
+
+
 *4.22.0  
 
 	New: [HorizonTweenSystem] GetTweenSystemWithName  
