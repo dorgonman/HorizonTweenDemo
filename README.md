@@ -15,7 +15,7 @@ private feed(only for internal use):
 
 Note: 
 
-master branch may be unstable since it is in development, please switch to tags, for example: release/4.22.0
+master branch may be unstable since it is in development, please switch to tags, for example: editor/hsgame/4.23.0.196
 
 
 ----------------------------------------------  
