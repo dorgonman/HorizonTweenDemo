@@ -1,9 +1,9 @@
 #!/bin/sh
 set -e
 git checkout -f master
-git pull
+git pull --prune
 git submodule foreach --recursive "git checkout -f master"
-git submodule foreach --recursive "git pull"
+git submodule foreach --recursive "git pull --prune"
 
 pushd ci_scripts/nuget/
 
