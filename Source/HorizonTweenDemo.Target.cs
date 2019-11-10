@@ -10,6 +10,7 @@ public class HorizonTweenDemoTarget : TargetRules
         Type = TargetType.Game;
 
         ExtraModuleNames.AddRange(new string[] { "HorizonTweenDemo" });
+        DefaultBuildSettings = BuildSettingsVersion.V2;
     }
 
 }
