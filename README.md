@@ -115,6 +115,10 @@ email: dorgonman@hotmail.com
  Version History
 ----------------------- 
 
+*4.23.2  
+
+	[Fix] InlineEditConditionToggle Crash
+
 *4.23.0  
 
 	New: Tween color for UPaperSpriteComponent and WidgetComponent  
