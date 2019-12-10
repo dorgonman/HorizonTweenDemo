@@ -116,7 +116,8 @@ email: dorgonman@hotmail.com
 ----------------------- 
 *4.24.0 
 
-	Update to 4.24
+	[Fix] InlineEditConditionToggle Crash  
+	
 
 
 *4.23.0  
