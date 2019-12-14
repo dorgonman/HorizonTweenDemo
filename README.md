@@ -54,7 +54,7 @@ Installation Guide
 put HorizonTweenPlugin into YOUR_PROJECT/Plugins folder, 
 and then add module to your project 
 YOUR_PROJECT.Build.cs:
-PublicDependencyModuleNames.AddRange(new string[] { "HorizonTween"});
+PublicDependencyModuleNames.AddRange(new string[] { "HorizonTween" });
 
 -----------------------
 User Guide
@@ -70,7 +70,7 @@ List of Modules: HorizonTween (Runtime)
 
 Intended Platform: All Platforms  
 
-Platforms Tested: Windows, Android, Mac  
+Platforms Tested: Windows, Android  
 
 Demo Project: https://github.com/dorgonman/HorizonTweenDemo 
 
