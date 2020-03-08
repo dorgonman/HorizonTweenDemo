@@ -10,6 +10,7 @@ public class HorizonTweenDemoEditorTarget : TargetRules
 		Type = TargetType.Editor;
         ExtraModuleNames.AddRange(new string[] { "HorizonTweenDemo" });
         DefaultBuildSettings = BuildSettingsVersion.V2;
+        ShadowVariableWarningLevel = WarningLevel.Error;
         // StrictIncludes for Plugin Demo Build to check if all source files have self-contained headers
         // -NoPCH -NoSharedPCH -DisableUnity
         {

@@ -31,7 +31,7 @@ How to Run Demo Project before purchase:(Only for Win64 editor build, no source 
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonTweenPlugin<br>
-					4.24.0   <br>
+					4.25.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -45,7 +45,7 @@ You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.
 System Requirements
 -----------------------  
 
-Supported UnrealEngine version: 4.12-4.24
+Supported UnrealEngine version: 4.12-4.25
 
 -----------------------
 Installation Guide
@@ -114,6 +114,11 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 ----------------------- 
+
+*4.25.0 
+	
+	Update to 4.25
+
 *4.24.0 
 
 	[Fix] InlineEditConditionToggle Crash  
