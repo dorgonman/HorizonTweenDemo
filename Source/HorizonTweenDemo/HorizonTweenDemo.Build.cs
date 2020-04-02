@@ -1,6 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+using System;
+using System.IO;
 using UnrealBuildTool;
+using Tools.DotNETCommon;
 
 public class HorizonTweenDemo : ModuleRules
 {
@@ -12,7 +15,14 @@ public class HorizonTweenDemo : ModuleRules
         PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
+		string ProjectPath = Path.GetFullPath(Path.Combine(ModuleDirectory, "../../"));
+		if(Target.ProjectFile != null)
+		{
+			ProjectPath = Path.GetDirectoryName(Target.ProjectFile.ToString());
 
+		}
+        // https://docs.unrealengine.com/en-US/Platforms/Mobile/UnrealPluginLanguage/index.html
+        AdditionalPropertiesForReceipt.Add("AndroidPlugin", Path.Combine(ProjectPath, "Source", "Game_UPL.xml"));
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 		
