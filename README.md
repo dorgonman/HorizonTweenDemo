@@ -7,12 +7,6 @@ public feed: nuget.org
 
 [![nuget.org package in feed in ](https://img.shields.io/nuget/v/HorizonTweenDemo.svg)](https://www.nuget.org/packages/HorizonTweenDemo/)
 
-private feed(only for internal use): 
-
-[![HorizonTweenDemo package in UE4HorizonPlugin feed in Azure Artifacts](https://feeds.dev.azure.com/hsgame/_apis/public/Packaging/Feeds/319fdc64-73ff-4910-b3b8-2ee206a67a49/Packages/e975004d-6311-4523-894f-d2fbfaaef875/Badge)](https://dev.azure.com/hsgame/UE4HorizonPlugin/_packaging?_a=package&feed=319fdc64-73ff-4910-b3b8-2ee206a67a49&package=e975004d-6311-4523-894f-d2fbfaaef875&preferRelease=true)
-
-
-
 Note: 
 
 master branch may be unstable since it is in development, please switch to tags, for example: editor/4.24.0.202
@@ -31,7 +25,7 @@ How to Run Demo Project before purchase:(Only for Win64 editor build, no source 
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonTweenPlugin<br>
-					4.25.0   <br>
+					4.26.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -45,7 +39,7 @@ You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.
 System Requirements
 -----------------------  
 
-Supported UnrealEngine version: 4.12-4.25
+Supported UnrealEngine version: 4.12-4.26
 
 -----------------------
 Installation Guide
@@ -114,6 +108,11 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 ----------------------- 
+
+*4.26.0    
+  
+* [New][HorizonTweenSystemLibrary] GetTweenSystemWithName will call SetActorLabel in editor
+
 
 *4.25.0 
 	
