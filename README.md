@@ -113,6 +113,8 @@ email: dorgonman@hotmail.com
   
 * [New][HorizonTweenSystemLibrary] GetTweenSystemWithName will call SetActorLabel in editor
 
+* [Refactor] Implement HorizonTweenSubsystem for TweenSystem instance management
+
 
 *4.25.0 
 	
