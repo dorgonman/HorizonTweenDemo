@@ -108,6 +108,11 @@ email: dorgonman@hotmail.com
 ----------------------- 
 
 
+*5.0.0    
+
+	[Refactor] Make all Plugin Functions Naming convention consistance With Unreal. WARNING: this change may break BP compile, you will need to relink parameters of afftected BP Nodes.
+
+
 *4.27.0    
 
 	Update to 4.27
@@ -245,7 +250,7 @@ email: dorgonman@hotmail.com
 
 	UPDATE: upgrade engine to 4.14
 
-	MEW: add FinishTweenEventByName and FinishAllTweenEvent with param bTweenToEnd that can control if we want to set current tween alpha to 1 before finish the event.
+	NEW: add FinishTweenEventByName and FinishAllTweenEvent with param bTweenToEnd that can control if we want to set current tween alpha to 1 before finish the event.
 
 *1.0.1   
 
