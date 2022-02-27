@@ -1,18 +1,13 @@
 // Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Gauntlet;
-using System.IO;
-using System.IO.Compression;
 
-namespace UE4Game
+
+namespace UnrealGame
 {
 
-	public class HorizonTweenDemoTestConfig : UE4TestConfig
+	public class HorizonTweenDemoTestConfig : UnrealTestConfiguration
 	{
 		/// <summary>
 		/// Map to use
@@ -23,7 +18,7 @@ namespace UE4Game
 		public string AdditionalCommandLine = "";
 		
 		[AutoParam]
-		public string ExecCmds = "automation SetMinimumPriority Critical;List;RunTests Plugin+Project.FunctionalTests;Quit";
+		public string ExecCmds = "automation SetMinimumPriority Critical;RunTests Filter:Plugin+Filter:_Game+Filter:Project.Functional Tests;Quit";
         
 
         /// <summary>
@@ -68,15 +63,7 @@ namespace UE4Game
 
 			return Config;
 		}
-		public override void CreateReport(TestResult Result, UnrealTestContext Contex, UnrealBuildSource Build, IEnumerable<UnrealRoleArtifacts> Artifacts, string ArtifactPath)
-		{
-			base.CreateReport(Result, Contex, Build, Artifacts, ArtifactPath);
-		}
 
-		public override void SaveArtifacts_DEPRECATED(string OutputPath)
-		{
-
-		}
 	}
 
 }

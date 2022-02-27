@@ -65,3 +65,5 @@ Saved
 /Build/WindowsNoEditor/FileOpenOrder/EditorOpenOrder.log
 Releases
 /LastCoverageResults.log
+/Build/Script/**/bin/
+/Build/Script/**/obj/

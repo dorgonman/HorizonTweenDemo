@@ -3,7 +3,6 @@
 using System;
 using System.IO;
 using UnrealBuildTool;
-using Tools.DotNETCommon;
 
 public class HorizonTweenDemo : ModuleRules
 {
@@ -23,17 +22,6 @@ public class HorizonTweenDemo : ModuleRules
 		}
         // https://docs.unrealengine.com/en-US/Platforms/Mobile/UnrealPluginLanguage/index.html
         AdditionalPropertiesForReceipt.Add("AndroidPlugin", Path.Combine(ProjectPath, "Source", "Game_UPL.xml"));
-		// Uncomment if you are using Slate UI
-		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
-		
-		// Uncomment if you are using online features
-		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
-		// if ((Target.Platform == UnrealTargetPlatform.Win32) || (Target.Platform == UnrealTargetPlatform.Win64))
-		// {
-		//		if (UEBuildConfiguration.bCompileSteamOSS == true)
-		//		{
-		//			DynamicallyLoadedModuleNames.Add("OnlineSubsystemSteam");
-		//		}
-		// }
+
 	}
 }
