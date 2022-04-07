@@ -41,6 +41,7 @@ stages:
           pool: 'Default'
           platform: 'win64'
           bCleanSCM: ${{ parameters.bCleanSCM }}
+          projectName: HorizonTweenDemo
 
     - template: job/build-game-editor.yml@templates
       parameters:
@@ -49,6 +50,7 @@ stages:
           pool: 'Default-MacOS'
           platform: 'mac'
           bCleanSCM: ${{ parameters.bCleanSCM }}
+          projectName: HorizonTweenDemo
     
 
   - stage: Deploy
