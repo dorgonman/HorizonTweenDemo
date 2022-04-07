@@ -110,8 +110,9 @@ email: dorgonman@hotmail.com
 
 *5.0.0    
 
-	[Refactor] Make all Plugin Functions Naming convention consistance With Unreal. WARNING: this change may break BP compile, you will need to relink parameters of afftected BP Nodes.
+* [Refactor] Make all Plugin Functions Naming convention consistance With Unreal. WARNING: this change may break BP compile, you will need to relink parameters of afftected BP Nodes.
 
+* [BugFix] UE5's FMath::Lerp<T> not work as expect for FRotator
 
 *4.27.0    
 
