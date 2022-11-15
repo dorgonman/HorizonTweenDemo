@@ -23,7 +23,7 @@ How to Run Demo Project before purchase:(Only for Win64 editor build, no source 
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonTweenPlugin<br>
-					4.27.0   <br>
+					5.1.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -37,7 +37,7 @@ You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.
 System Requirements
 -----------------------  
 
-Supported UnrealEngine version: 4.12-4.27
+Supported UnrealEngine version: 4.12-5.1
 
 -----------------------
 Installation Guide
@@ -107,6 +107,9 @@ email: dorgonman@hotmail.com
  Version History
 ----------------------- 
 
+*5.1.0  
+
+	Update Plugin to 5.1.0
 
 *5.0.0    
 
