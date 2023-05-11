@@ -1,7 +1,7 @@
 [Marketplace](https://www.unrealengine.com/marketplace/en-US/horizontween-plugin) 
 
 
-[![Build Status](https://dev.azure.com/hsgame/UE4HorizonPlugin/_apis/build/status/HorizonTween/HorizonTweenDemo-Shipping-CI?repoName=HorizonTweenDemo&branchName=main)](https://dev.azure.com/hsgame/UE4HorizonPlugin/_build/latest?definitionId=26&repoName=HorizonTweenDemo&branchName=main)
+[![Build Status](https://dev.azure.com/hsgame/UEHorizonPlugin/_apis/build/status/HorizonTween/HorizonTweenDemo-Shipping-CI?repoName=HorizonTweenDemo&branchName=main)](https://dev.azure.com/hsgame/UEHorizonPlugin/_build/latest?definitionId=26&repoName=HorizonTweenDemo&branchName=main)
 
 public feed: nuget.org  
 
@@ -23,13 +23,13 @@ How to Run Demo Project before purchase:(Only for Win64 editor build, no source 
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonTweenPlugin<br>
-					5.1.0   <br>
+					5.2.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
 ----------------------------------------------  
 
-The goal of this plugin is to provide on the fly tween animation for UE4 with full control of tween event.
+The goal of this plugin is to provide on the fly tween animation for UnrealEngine with full control of tween event.
 
 You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.net/ue4/horizon_tween_plugin/doc/doxygen/html/index.html)  
 
@@ -37,7 +37,7 @@ You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.
 System Requirements
 -----------------------  
 
-Supported UnrealEngine version: 4.12-5.1
+Supported UnrealEngine version: 4.12-5.2
 
 -----------------------
 Installation Guide
@@ -106,6 +106,17 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 ----------------------- 
+
+*5.2.0  
+
+* [TweenWidgetColor] Refactor TweenStart get DefaultValue
+
+* [TweenSystem] Fix CreateTweenWidgetEventWithParam category
+
+* [BugFix][TweenSystem] Fix TweenEvent failed to Tick when added during OnTweenFinished calback
+
+* [New][TweenSystem] VisibleAnwhere for TweenEventMap, PendingKillTweenEvenList, PendingAddTweenEvenList, so we can see it in editor
+
 
 *5.1.0  
 

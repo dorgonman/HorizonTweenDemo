@@ -11,7 +11,7 @@ public class HorizonTweenDemoTarget : TargetRules
 
         ExtraModuleNames.AddRange(new string[] { "HorizonTweenDemo" });
         DefaultBuildSettings = BuildSettingsVersion.V2;
-        IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
         // ShadowVariableWarningLevel = WarningLevel.Error;
     }
 

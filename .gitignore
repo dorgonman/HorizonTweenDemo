@@ -68,3 +68,4 @@ Releases
 /Build/Script/**/bin/
 /Build/Script/**/obj/
 EditorOpenOrder.log
+/.vsconfig
