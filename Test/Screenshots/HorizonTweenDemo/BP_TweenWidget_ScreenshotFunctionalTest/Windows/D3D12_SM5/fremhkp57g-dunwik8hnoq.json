@@ -1,10 +1,10 @@
 {
-	"screenShotName": "BP_MoveWithSpline_ScreenshotFunctionalTest",
+	"screenShotName": "BP_TweenWidget_ScreenshotFunctionalTest",
 	"context": "HorizonTweenDemo",
-	"testName": "BP_MoveWithSpline_ScreenshotFunctionalTest",
+	"testName": "BP_TweenWidget_ScreenshotFunctionalTest",
 	"notes": "",
-	"id": "EFDF7B26475E50E7A3BAF79C64D6F7B3",
-	"commit": "24575295",
+	"id": "ED41F095463CB77352152EB044355933",
+	"commit": "27405482",
 	"width": 1920,
 	"height": 1080,
 	"rhi": "D3D12",
@@ -34,8 +34,8 @@
 	"toleranceAlpha": 16,
 	"toleranceMinBrightness": 16,
 	"toleranceMaxBrightness": 240,
-	"maximumLocalError": 0.10000000149011612,
-	"maximumGlobalError": 0.019999999552965164,
+	"maximumLocalError": 0.60000002384185791,
+	"maximumGlobalError": 0.029999999329447746,
 	"bIgnoreAntiAliasing": true,
 	"bIgnoreColors": false
 }

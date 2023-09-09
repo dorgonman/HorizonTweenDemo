@@ -1,10 +1,10 @@
 {
-	"screenShotName": "BP_MultiTweenWidget_UIScreenshotFunctionalTest",
+	"screenShotName": "BP_BasicMoveWorld_ScreenshotFunctionalTest",
 	"context": "HorizonTweenDemo",
-	"testName": "BP_MultiTweenWidget_UIScreenshotFunctionalTest",
+	"testName": "BP_BasicMoveWorld_ScreenshotFunctionalTest",
 	"notes": "",
-	"id": "F68F5CE344FC1B63981B2F9E6343A9FC",
-	"commit": "24575295",
+	"id": "52445BCB4E6F815B86D684BFF56B1D62",
+	"commit": "27405482",
 	"width": 1920,
 	"height": 1080,
 	"rhi": "D3D12",
@@ -34,8 +34,8 @@
 	"toleranceAlpha": 16,
 	"toleranceMinBrightness": 16,
 	"toleranceMaxBrightness": 240,
-	"maximumLocalError": 0.5,
-	"maximumGlobalError": 0.029999999329447746,
+	"maximumLocalError": 0.10000000149011612,
+	"maximumGlobalError": 0.019999999552965164,
 	"bIgnoreAntiAliasing": true,
 	"bIgnoreColors": false
 }

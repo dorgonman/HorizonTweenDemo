@@ -1,10 +1,10 @@
 {
-	"screenShotName": "BP_EventCallback_ScreenshotFunctionalTest",
+	"screenShotName": "BP_MultiTweenComponent_ScreenshotFunctionalTest",
 	"context": "HorizonTweenDemo",
-	"testName": "BP_EventCallback_ScreenshotFunctionalTest",
+	"testName": "BP_MultiTweenComponent_ScreenshotFunctionalTest",
 	"notes": "",
-	"id": "CAA07C8848460A2F6C5BA49C8BFB7DA0",
-	"commit": "24575295",
+	"id": "5DDEE3C04A9FE2F6AF611DB44A37D108",
+	"commit": "27405482",
 	"width": 1920,
 	"height": 1080,
 	"rhi": "D3D12",
@@ -34,7 +34,7 @@
 	"toleranceAlpha": 16,
 	"toleranceMinBrightness": 16,
 	"toleranceMaxBrightness": 240,
-	"maximumLocalError": 0.15000000596046448,
+	"maximumLocalError": 0.10000000149011612,
 	"maximumGlobalError": 0.019999999552965164,
 	"bIgnoreAntiAliasing": true,
 	"bIgnoreColors": false

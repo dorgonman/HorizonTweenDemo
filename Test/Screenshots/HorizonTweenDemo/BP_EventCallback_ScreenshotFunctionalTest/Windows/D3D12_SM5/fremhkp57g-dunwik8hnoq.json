@@ -1,10 +1,10 @@
 {
-	"screenShotName": "BP_MoveWithLerpMode_ScreenshotFunctionalTest",
+	"screenShotName": "BP_EventCallback_ScreenshotFunctionalTest",
 	"context": "HorizonTweenDemo",
-	"testName": "BP_MoveWithLerpMode_ScreenshotFunctionalTest",
+	"testName": "BP_EventCallback_ScreenshotFunctionalTest",
 	"notes": "",
-	"id": "0FD210614BD18D9F65A2919D9EC0E609",
-	"commit": "24575295",
+	"id": "BA04D7F0433EB332E9C6469B9E9D74B3",
+	"commit": "27405482",
 	"width": 1920,
 	"height": 1080,
 	"rhi": "D3D12",
@@ -34,7 +34,7 @@
 	"toleranceAlpha": 16,
 	"toleranceMinBrightness": 16,
 	"toleranceMaxBrightness": 240,
-	"maximumLocalError": 0.10000000149011612,
+	"maximumLocalError": 0.15000000596046448,
 	"maximumGlobalError": 0.019999999552965164,
 	"bIgnoreAntiAliasing": true,
 	"bIgnoreColors": false
