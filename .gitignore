@@ -69,3 +69,4 @@ Releases
 /Build/Script/**/obj/
 EditorOpenOrder.log
 /.vsconfig
+*.props
