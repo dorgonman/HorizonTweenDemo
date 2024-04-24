@@ -23,7 +23,7 @@ How to Run Demo Project before purchase:(Only for Win64 editor build, no source 
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonTweenPlugin<br>
-					5.3.0   <br>
+					5.4.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -106,6 +106,14 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 ----------------------- 
+
+*5.4.0
+
+* Use TObjectPtr instead of RawPointer
+
+* [CppCheck] Fix Condition 'pFont' is always true
+
+* [BugFix] Fix warning: UE_NODISCARD has been deprecated and should be replaced with [[nodiscard]].
 
 *5.3.0
 
