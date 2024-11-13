@@ -107,6 +107,10 @@ email: dorgonman@hotmail.com
  Version History
 ----------------------- 
 
+*5.5.0
+
+* Add EditorCustomVirtualPath for uplugin
+
 *5.4.0
 
 * Use TObjectPtr instead of RawPointer
