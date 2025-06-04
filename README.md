@@ -107,6 +107,10 @@ email: dorgonman@hotmail.com
  Version History
 ----------------------- 
 
+*5.6.0
+
+* Update to 5.6.0
+
 *5.5.0
 
 * Add EditorCustomVirtualPath for uplugin
