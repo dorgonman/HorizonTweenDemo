@@ -23,7 +23,7 @@ How to Run Demo Project before purchase:(Only for Win64 editor build, no source 
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonTweenPlugin<br>
-					5.4.0   <br>
+					5.7.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -31,13 +31,13 @@ How to Run Demo Project before purchase:(Only for Win64 editor build, no source 
 
 The goal of this plugin is to provide on the fly tween animation for UnrealEngine with full control of tween event.
 
-You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.net/ue4/horizon_tween_plugin/doc/doxygen/html/index.html)  
+
 
 -----------------------  
 System Requirements
 -----------------------  
 
-Supported UnrealEngine version: 4.12-5.3
+Supported UnrealEngine version: 4.12-5.7
 
 -----------------------
 Installation Guide
@@ -106,6 +106,11 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 ----------------------- 
+
+
+*5.7.0
+
+* Update to 5.7.0
 
 *5.6.0
 
