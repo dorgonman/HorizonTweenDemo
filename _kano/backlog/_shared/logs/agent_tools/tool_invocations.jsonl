@@ -1,0 +1,1 @@
+{"timestamp": "2026-02-11T23:56:21.374080", "agent": "Sisyphus", "operation": "update", "path": "D:\\_work\\_Horizon\\HorizonTweenDemo\\.kano\\cache\\backlog\\backlog.HorizonTweenDemo.chunks.v1.db", "tool": "kano-backlog workitem create", "metadata": {"action": "auto-sync-sequences", "product": "HorizonTweenDemo", "status": "missing: BUG, EPIC, FTR, TSK, USR"}}
