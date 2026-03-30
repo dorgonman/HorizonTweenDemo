@@ -69,13 +69,13 @@ jobs:
     #- ${ if eq(variables['Pipeline.bBuildWin64'], 'true') }:
 
     - template: job/verify-plugin-build.yml@templates
-      parameters: 
-          bRunAutomationTest: true
-          gauntletTestName: 'Plugin.SmokeTest.HorizonTween.*'
-          bCleanSCM: ${{ parameters.bCleanSCM }}
-          bBuildWin64: ${{ parameters.bBuildWin64 }}
-          bBuildAndroid: ${{ parameters.bBuildAndroid }}
-          bBuildMac: ${{ parameters.bBuildMac }}
-          bBuildIOS: ${{ parameters.bBuildIOS }}
-          projectName: HorizonTweenDemo
-          checkoutPath: ../mount/ssd/_azvcs/Horizon/TweenDemo
+      parameters:
+        bRunAutomationTest: true
+        gauntletTestName: 'Plugin.SmokeTest.HorizonTween.*'
+        bCleanSCM: ${{ parameters.bCleanSCM }}
+        bBuildWin64: ${{ parameters.bBuildWin64 }}
+        bBuildAndroid: ${{ parameters.bBuildAndroid }}
+        bBuildMac: ${{ parameters.bBuildMac }}
+        bBuildIOS: ${{ parameters.bBuildIOS }}
+        projectName: HorizonTweenDemo
+        checkoutPath: ../mount/ssd/_azvcs/Horizon/TweenDemo
