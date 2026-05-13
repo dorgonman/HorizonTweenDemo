@@ -197,6 +197,12 @@ else
 ## 📝 備註
 
 - 所有問題已記錄在 Kano backlog 系統中
-- 票據位置: `_kano/backlog/products/HorizonTweenDemo/items/bug/`
+- 票據位置: `_kano/backlog/products/HorizonTweenDemo/items/bug/0000/`
+- 所有 18 個 Bug 項目 (HTD-BUG-0002 ~ 0019) 已填入完整的 Context, Goal, Approach, Acceptance Criteria
 - 建議在修復前創建對應的單元測試
 - 修復後更新 AGENTS.md 中的已知問題部分
+
+## 📅 更新記錄
+
+- 2026-03-25: [agent=Sisyphus] 填入所有 18 個 Bug 項目的完整內容
+- 2026-02-11: [agent=Sisyphus] 初始代碼分析，創建 18 個 Bug 票據
