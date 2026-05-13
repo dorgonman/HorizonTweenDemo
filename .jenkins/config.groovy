@@ -1,4 +1,4 @@
-// HorizonTweenDemo — Jenkins Shared Library consumer configuration
+// HorizonUIPluginDemo — Jenkins Shared Library consumer configuration
 // This file is thin: project-specific values only. All orchestration lives in the shared library.
 
 def projectConfig() {
@@ -78,6 +78,17 @@ def projectConfig() {
         macDeployAgentLabel:    'mac && unreal && deploy',
         iosAgentLabel:          'mac && unreal',
         gpuTestAgentLabel:      'windows && unreal && gpu',
+
+        // AutoSDK target builds. Linux target is cross-compiled through Windows AutoSDK;
+        // linuxAgentLabel remains reserved for Linux host agents.
+        autoSdkAgentLabel:      'windows && unreal && autosdk',
+        androidAgentLabel:      'windows && unreal && autosdk',
+        linuxTargetAgentLabel:  'windows && unreal && autosdk',
+        linuxTargetHostPlatform: 'Win64',
+        ps5AgentLabel:          'windows && unreal && autosdk',
+        xsxAgentLabel:          'windows && unreal && autosdk',
+        switch2AgentLabel:      'windows && unreal && autosdk',
+
         deployWorkspace:        '',  // Auto-resolved if empty: "${sharedWorkspaceRoot}/HorizonPlugin/HorizonUIPluginDemo/Deploy"
         bRunBuildGraphAggregation: false,
 
@@ -91,21 +102,20 @@ def projectConfig() {
         preArchiveCopyStep: 'Default',
         sentryCredentialId: 'SENTRY_AUTH_INFO',
         sentryOrg: 'kanohorizonia',
-        sentryProject: 'horizontweendemo',
+        sentryProject: 'horizonuiplugindemo',
         sentryForeignProject: 'unrealengine',
         sentryEnvironment: 'dev',
-        bUploadToUnrealHordeServer: false,
         bDeployUnrealHordeServer: false,
         unrealHordeServer:  'http://unrealhorde.local/',
         hordeToken:        '',  // Set via HORDE_TOKEN Jenkins parameter; empty here
         hordeGitStreamRepo: 'https://dev.azure.com/kanohorizonia/UEHorizonPlugin/_git/HorizonUIPluginDemo',  // Repo URL for Horde stream ID (without trailing .git)
 
         // === Plugin-specific ===
-        pluginName:         'HorizonTweenPlugin',
+        pluginName:         'HorizonUIPlugin',
 
         // === Consumer metadata ===
-        projectName:        'HorizonTweenDemo',
-        uprojectPath:       'HorizonTweenDemo.uproject',
+        projectName:        'HorizonUIPluginDemo',
+        uprojectPath:       'HorizonUIPluginDemo.uproject',
     ]
 }
 

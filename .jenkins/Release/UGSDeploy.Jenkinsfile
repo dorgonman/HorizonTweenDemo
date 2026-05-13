@@ -9,7 +9,7 @@ def sharedWorkspaceRoot = 'C:/_agent/_jenkins/agent/workspace'
 pipeline {
     parameters {
         // Source build job name - adjust to match your Jenkins job name for UGSBuild
-        string(name: 'UGS_BUILD_JOB_NAME', defaultValue: 'HorizonTweenDemo-UGSBuild', description: 'Name of the UGS build job to copy artifacts from')
+        string(name: 'UGS_BUILD_JOB_NAME', defaultValue: 'HorizonUIPluginDemo-UGSBuild', description: 'Name of the UGS build job to copy artifacts from')
         // Build numbers to copy from (leave empty for latest)
         string(name: 'WIN64_BUILD_NUMBER', defaultValue: '', description: 'Win64 build number to copy (empty = latest)')
         string(name: 'MAC_BUILD_NUMBER', defaultValue: '', description: 'Mac build number to copy (empty = latest)')
