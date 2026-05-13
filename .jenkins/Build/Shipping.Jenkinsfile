@@ -8,8 +8,8 @@ def sharedWorkspaceRoot = 'C:/_agent/_jenkins/agent/workspace'
 pipeline {
     agent {
         node {
-            label 'unreal-win64'
-            customWorkspace "${sharedWorkspaceRoot}/HorizonPlugin/HorizonTweenDemo/Build/PackagedBuild"
+            label 'windows && unreal'
+            customWorkspace "${sharedWorkspaceRoot}/HorizonPlugin/HorizonUIPluginDemo/Build/PackagedBuild"
         }
     }
 

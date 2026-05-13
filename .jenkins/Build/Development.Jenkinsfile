@@ -18,7 +18,7 @@ pipeline {
     // node{} blocks with explicit platform labels, so they land
     // on the correct build agents (Windows/Mac/Linux).
     //
-    // Using a build agent as root (e.g., 'unreal-win64') caused
+    // Using a build agent as root (e.g., 'windows && unreal') caused
     // executor starvation: root consumed 1 of 2 Windows executors
     // while appearing idle, leaving 0 free for the Windows build branch.
     //
@@ -81,45 +81,11 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    def cfg = [
-                        projectRoot: '.',
-                        sharedLibraryName: 'jenkins-unreal-pipeline-library',
-                        windowsAgentLabel: 'unreal-win64',
-                        macAgentLabel: 'unreal-mac',
-                        linuxAgentLabel: 'unreal-linux',
-                        win64StandaloneAgentLabel: '',
-                        macStandaloneAgentLabel: '',
-                        linuxStandaloneAgentLabel: '',
-                        win64UgsAgentLabel: '',
-                        macUgsAgentLabel: '',
-                        linuxUgsAgentLabel: '',
-                        scriptRoot: 'Build',
-                        reportRoot: 'Intermediate/BuildPackage',
-                        slug: 'HorizonTweenDemo',
-                        workspaceSlot: 'Package',
-                        win64SharedWorkspaceRoot: 'C:/_agent/_jenkins/agent/workspace/HorizonPlugin',
-                        macSharedWorkspaceRoot: '/Users/Shared/jenkins/agent/workspace/HorizonPlugin',
-                        linuxSharedWorkspaceRoot: '/var/jenkins/home/ws/HorizonPlugin',
-                        buildArchiveRoot: 'Intermediate/BuildArchive',
-                        buildPackageRoot: 'Intermediate/BuildPackage',
-                        buildPluginRoot: 'Intermediate/BuildPlugin',
-                        buildUgsRoot: 'Intermediate/BuildUGS',
-                        aggregateAgentLabel: 'unreal-win64',
-                        deployWorkspace: '',
-                        bRunBuildGraphAggregation: false,
-                        coverageFormat: ['xml', 'html'],
-                        pluginName: 'HorizonTweenPlugin',
-                        projectName: 'HorizonTweenDemo',
-                        uprojectPath: 'HorizonTweenDemo.uproject',
-                        nugetFeed: 'https://api.nuget.org/v3/index.json',
-                        unrealHordeServer: 'http://unrealhorde.local/',
-                        bSkipOrchestratorCheckout: true,
-                        sentryCredentialId: 'SENTRY_AUTH_INFO',
-                        sentryOrg: 'kanohorizonia',
-                        sentryProject: 'horizontweendemo',
-                        sentryForeignProject: '',
-                        sentryEnvironment: 'dev',
-                    ]
+                    // Root agent has skipDefaultCheckout(true); checkout is required before load.
+                    checkout scm
+
+                    def configLoader = load '.jenkins/config.groovy'
+                    def cfg = configLoader.projectConfig()
                     def config = unrealConfig(cfg + [
                         bCleanSCM: params.bCleanSCM,
                         bInstallPrerequisites: params.bInstallPrerequisites,

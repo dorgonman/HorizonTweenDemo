@@ -26,8 +26,8 @@ pipeline {
 
     agent {
         node {
-            label 'unreal-win64'
-            customWorkspace "${sharedWorkspaceRoot}/HorizonPlugin/HorizonTweenDemo/Deploy"
+            label 'windows && unreal'
+            customWorkspace "${sharedWorkspaceRoot}/HorizonPlugin/HorizonUIPluginDemo/Deploy"
         }
     }
 
@@ -90,7 +90,7 @@ pipeline {
                         bPrepareNuGetPackage: true,
                         bDeployNuGetPackage: params.bDeployNuGetPackage,
                         bDeployPerforce: params.bDeployPerforce,
-                        bRunTestStandaloneWin64: false,
+                        bRunTestWin64Standalone: false,
                         bDeployUnrealHordeServer: params.bDeployUnrealHordeServer,
                         unrealHordeServer: params.HORDE_SERVER_URL ?: 'http://unrealhorde.local/',
                         buildConfiguration: 'UGSBuild',
@@ -150,7 +150,7 @@ pipeline {
                         bPrepareNuGetPackage: false,
                         bDeployNuGetPackage: params.bDeployNuGetPackage,
                         bDeployPerforce: params.bDeployPerforce,
-                        bRunTestStandaloneWin64: false,
+                        bRunTestWin64Standalone: false,
                         bDeployUnrealHordeServer: params.bDeployUnrealHordeServer,
                         unrealHordeServer: params.HORDE_SERVER_URL ?: 'http://unrealhorde.local/',
                         buildConfiguration: 'UGSBuild',

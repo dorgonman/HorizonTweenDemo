@@ -16,13 +16,14 @@ The following Jenkinsfiles serve as entrypoints for different CI/CD needs:
 
 Global settings are managed in `.jenkins/config.groovy`. Key parameters include:
 
-- `agentLabel`: Must match your Jenkins agent pool name (e.g., `unreal-win64`).
+- `windowsAgentLabel` / `macAgentLabel` / `linuxAgentLabel`: Use Jenkins capability label expressions, for example `windows && unreal` or `mac && unreal`. Avoid physical node names in project Jenkinsfiles.
 - `projectRoot`: The path to the project root, currently `.` so the shared library can relocate the workspace safely.
 - `unrealHordeServer`: Default Horde URL for UGS-related publishing, default `http://unrealhorde.local/`.
 - `bBuildStandalone<Platform>` / `bBuildServer<Platform>`: Target-specific build toggles for the build matrix.
 - `bRunTestWin64Standalone`: Runs the Win64 standalone test job.
 - QA rerun parameters: `bConsumeUpstreamStandaloneTar` copies/unpacks the upstream Build artifact tar; `bRunTestWin64Standalone` selects the currently implemented rerun platform.
 - Coverage is derived internally by the shared library. It is no longer a user-facing Jenkins parameter.
+- Consumer Jenkinsfiles should load `.jenkins/config.groovy` and only pass job-specific overrides to `unrealConfig(...)`. Do not copy the full config map into each Jenkinsfile.
 
 ## Adding a New Platform
 
@@ -35,7 +36,7 @@ Follow these steps to extend the pipeline for a new platform:
 
 ## Shared Workspace Layout
 
-Windows Jenkins jobs use the shared workspace owned by the shared library. Consumer Jenkinsfiles should stay thin and should not implement their own workspace helpers.
+Windows Jenkins jobs use the shared workspace owned by the shared library. Consumer Jenkinsfiles should stay thin, load `.jenkins/config.groovy`, and avoid legacy root aliases such as `buildArchiveRoot`, `buildPackageRoot`, `buildPluginRoot`, and `buildUgsRoot`.
 
 ## Report Structure
 
@@ -49,12 +50,32 @@ The pipeline generates and archives reports in the following locations:
 - **Archived report metadata**: `Build/build_metadata.json`
 - **Archived public docs**: `Build/doc/`
 
+
+## Jenkins Node Labels
+
+Use capability labels instead of physical node names.
+
+Recommended Windows node labels:
+
+```text
+windows unreal ugs deploy gpu
+```
+
+Recommended Mac node labels:
+
+```text
+mac unreal deploy
+```
+
+The project config should use label expressions such as `windows && unreal && ugs`.
+Do not put physical hostnames in reusable Jenkinsfiles.
+
 ## Jenkins Admin Setup
 
 The following steps are required before the first run:
 
 1. **Global Pipeline Library**: Configure `jenkins-unreal-pipeline-library` as a Global Trusted Pipeline Library in **Manage Jenkins** → **Configure System**.
-2. **Win64 Agent**: Set up a Windows agent with the label `unreal-win64`.
+2. **Win64 Agent**: Set up Windows Unreal build agents with labels such as `windows unreal ugs deploy gpu`.
 3. **Required Plugins**: Ensure the following plugins are installed:
    - `pipeline`
    - `junit`
@@ -85,3 +106,35 @@ The following features are not part of the current implementation:
 
 - **Notification Systems**: Integration with Slack, email, or other messaging services.
 - **Live Jenkins Runtime Validation**: The pipeline logic is provided as-is without active validation on a live Jenkins instance.
+
+
+### Loading `.jenkins/config.groovy`
+
+Consumer Jenkinsfiles should avoid top-level `load '.jenkins/config.groovy'`.
+Jenkins `load` requires a workspace (`hudson.FilePath`), while Pipeline-from-SCM
+may only perform lightweight checkout before execution.
+
+Preferred UGS entrypoint pattern:
+
+```groovy
+unrealUgsBuildPipeline(
+    projectConfigPath: '.jenkins/config.groovy',
+    configOverrides: [
+        bDeployUnrealHordeServer: true,
+    ]
+)
+```
+
+Agent routing belongs in `.jenkins/config.groovy` as capability label expressions, for example:
+
+```groovy
+windowsAgentLabel   : 'windows && unreal',
+win64UgsAgentLabel  : 'windows && unreal && ugs',
+ugsDeployAgentLabel : 'windows && unreal && deploy',
+macAgentLabel       : 'mac && unreal',
+macDeployAgentLabel : 'mac && unreal && deploy',
+iosAgentLabel       : 'mac && unreal',
+```
+
+For Declarative jobs that still load project config directly, do it inside a
+stage after `checkout scm`, not at Pipeline top level.
