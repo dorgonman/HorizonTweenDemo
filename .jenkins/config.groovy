@@ -1,4 +1,4 @@
-// HorizonUIPluginDemo — Jenkins Shared Library consumer configuration
+// HorizonTweenDemo — Jenkins Shared Library consumer configuration
 // This file is thin: project-specific values only. All orchestration lives in the shared library.
 
 def projectConfig() {
@@ -27,7 +27,7 @@ def projectConfig() {
         // === Consumer metadata ===
         scriptRoot:         'Build',
         reportRoot:         'Intermediate/BuildPackage',
-        slug:               'HorizonUIPluginDemo',
+        slug:               'HorizonTweenDemo',
         scmCredentialId:    'dorgonman_azuredevops',
         macLoginKeychainCredentialId: 'MAC_LOGIN_USER',
         workspaceSlot:      'Package',
@@ -89,7 +89,7 @@ def projectConfig() {
         xsxAgentLabel:          'windows && unreal && autosdk',
         switch2AgentLabel:      'windows && unreal && autosdk',
 
-        deployWorkspace:        '',  // Auto-resolved if empty: "${sharedWorkspaceRoot}/HorizonPlugin/HorizonUIPluginDemo/Deploy"
+        deployWorkspace:        '',  // Auto-resolved if empty: "${sharedWorkspaceRoot}/HorizonPlugin/HorizonTweenDemo/Deploy"
         bRunBuildGraphAggregation: false,
 
         // === Test + Coverage ===
@@ -102,20 +102,27 @@ def projectConfig() {
         preArchiveCopyStep: 'Default',
         sentryCredentialId: 'SENTRY_AUTH_INFO',
         sentryOrg: 'kanohorizonia',
-        sentryProject: 'horizonuiplugindemo',
+        sentryProject: 'horizontweendemo',
         sentryForeignProject: 'unrealengine',
         sentryEnvironment: 'dev',
         bDeployUnrealHordeServer: false,
         unrealHordeServer:  'http://unrealhorde.local/',
         hordeToken:        '',  // Set via HORDE_TOKEN Jenkins parameter; empty here
-        hordeGitStreamRepo: 'https://dev.azure.com/kanohorizonia/UEHorizonPlugin/_git/HorizonUIPluginDemo',  // Repo URL for Horde stream ID (without trailing .git)
+        hordeGitStreamRepo: 'https://dev.azure.com/kanohorizonia/UEHorizonPlugin/_git/HorizonTweenDemo',  // Repo URL for Horde stream ID (without trailing .git)
 
-        // === Plugin-specific ===
-        pluginName:         'HorizonUIPlugin',
+        // === Plugin Validation ===
+        // Plugin validation is opt-in in the shared library. This PluginDemo project enables it explicitly.
+        bValidatePlugins:   true,
+        pluginName:         'HorizonTweenPlugin',
+        pluginValidationPaths: [
+            'Plugins/HorizonTweenPlugin/HorizonTweenPlugin.uplugin',
+        ],
+        pluginValidationIncludeRegex: '^Plugins/.*\\.uplugin$',
+        pluginValidationExcludeRegex: '^Plugins/Marketplace/',
 
         // === Consumer metadata ===
-        projectName:        'HorizonUIPluginDemo',
-        uprojectPath:       'HorizonUIPluginDemo.uproject',
+        projectName:        'HorizonTweenDemo',
+        uprojectPath:       'HorizonTweenDemo.uproject',
     ]
 }
 
