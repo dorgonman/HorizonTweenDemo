@@ -1,5 +1,0 @@
-// .jenkins/Release/Jenkinsfile — compatibility wrapper for Jenkins jobs still
-// configured to load the legacy release entrypoint path.
-@Library('kano-jenkins-unreal-pipeline-library') _
-
-unrealReleaseDeployPipeline()
