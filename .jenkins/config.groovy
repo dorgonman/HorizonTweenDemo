@@ -92,7 +92,6 @@ def projectConfig() {
         xsxAgentLabel:          'windows && unreal && autosdk',
         switch2AgentLabel:      'windows && unreal && autosdk',
 
-        deployWorkspace:        '',  // Auto-resolved if empty: "${sharedWorkspaceRoot}/HorizonPlugin/HorizonTweenDemo/Deploy"
         bRunBuildGraphAggregation: false,
 
         // === Test + Coverage ===
