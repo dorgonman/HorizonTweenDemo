@@ -23,7 +23,7 @@ How to Run Demo Project before purchase:(Only for Win64 editor build, no source 
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonTweenPlugin<br>
-					5.7.0   <br>
+					5.8.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -37,7 +37,7 @@ The goal of this plugin is to provide on the fly tween animation for UnrealEngin
 System Requirements
 -----------------------  
 
-Supported UnrealEngine version: 4.12-5.7
+Supported UnrealEngine version: 4.12-5.8
 
 -----------------------
 Installation Guide
@@ -107,6 +107,10 @@ email: dorgonman@hotmail.com
  Version History
 ----------------------- 
 
+
+*5.8.0
+
+* Update to 5.8.0
 
 *5.7.0
 
