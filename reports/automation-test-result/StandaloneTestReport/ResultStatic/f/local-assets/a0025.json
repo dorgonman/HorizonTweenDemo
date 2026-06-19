@@ -1,0 +1,32 @@
+{
+	"creationTime": "2026.06.17-23.20.17",
+	"sourcePlatform": "Windows",
+	"sourceRHI": "D3D12",
+	"idealApprovedFolderPath": "Test/Screenshots/HorizonTweenDemo/BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest/Windows/D3D12_SM5",
+	"approvedFilePath": "Test/Screenshots/HorizonTweenDemo/BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest/Windows/D3D12_SM5/fremhkp57g-dunwik8hnoq.png",
+	"incomingFilePath": "../../../../../../GauntletTemp/DeviceCache/Win64/LocalDevice0/UserDir/Saved/Automation/Tmp/HorizonTweenDemo/BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest/Windows/D3D12_SM5/5pvs50b1kjasjqoycckaig.png",
+	"comparisonFilePath": "../../../../../../GauntletTemp/DeviceCache/Win64/LocalDevice0/UserDir/Saved/Automation/Tmp/Delta/ImageCompare-5821FD3C4B0D56997F2B15B6409162DB.png",
+	"reportApprovedFilePath": "HorizonTweenDemo/BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png",
+	"reportIncomingFilePath": "HorizonTweenDemo/BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+	"reportComparisonFilePath": "HorizonTweenDemo/BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+	"maxLocalDifference": 0.13662229938271606,
+	"globalDifference": 0.0083241705246913586,
+	"tolerance":
+	{
+		"red": 32,
+		"green": 32,
+		"blue": 32,
+		"alpha": 32,
+		"minBrightness": 64,
+		"maxBrightness": 96,
+		"ignoreAntiAliasing": true,
+		"ignoreColors": false,
+		"maximumLocalError": 0.15000000596046448,
+		"maximumGlobalError": 0.019999999552965164
+	},
+	"errorMessage": "",
+	"screenshotPath": "HorizonTweenDemo/BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest",
+	"comparisonId": "9B53F9E444359A1D6428B2A5860AC38C",
+	"bSkipAttachingImages": false,
+	"version": 3
+}

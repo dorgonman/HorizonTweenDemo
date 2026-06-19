@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="Unreal Automation" tests="16" failures="0" errors="0" skipped="0" time="27.954620">
+  <testcase classname="Plugin.UnitTests.HorizonTween.TweenActorEvent.MoveFromTo" name="Plugin.UnitTests.HorizonTween.TweenActorEvent.MoveFromTo.CheckAlphaResult" time="1.028003" />
+  <testcase classname="Plugin.UnitTests.HorizonTween.TweenFloatEvent" name="Plugin.UnitTests.HorizonTween.TweenFloatEvent.CheckAlphaResult" time="1.028100" />
+  <testcase classname="Project.Functional Tests.Maps.HorizonTweenDemo" name="Project.Functional Tests.Maps.HorizonTweenDemo.BP_BasicMoveLocal_ScreenshotFunctionalTest" time="2.294475">
+    <system-out>[Info] Screenshot 'HorizonTweenDemo/BP_BasicMoveLocal_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000004, Max Local Difference = 0.000434</system-out>
+  </testcase>
+  <testcase classname="Project.Functional Tests.Maps.HorizonTweenDemo" name="Project.Functional Tests.Maps.HorizonTweenDemo.BP_BasicMoveWorld_ScreenshotFunctionalTest" time="1.673273">
+    <system-out>[Info] Screenshot 'HorizonTweenDemo/BP_BasicMoveWorld_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000</system-out>
+  </testcase>
+  <testcase classname="Project.Functional Tests.Maps.HorizonTweenDemo" name="Project.Functional Tests.Maps.HorizonTweenDemo.BP_CustomCurve_ScreenshotFunctionalTest" time="2.269768">
+    <system-out>[Info] Screenshot 'HorizonTweenDemo/BP_CustomCurve_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000</system-out>
+  </testcase>
+  <testcase classname="Project.Functional Tests.Maps.HorizonTweenDemo" name="Project.Functional Tests.Maps.HorizonTweenDemo.BP_EventCallback_ScreenshotFunctionalTest" time="1.971252">
+    <system-out>[Info] Screenshot 'HorizonTweenDemo/BP_EventCallback_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000</system-out>
+  </testcase>
+  <testcase classname="Project.Functional Tests.Maps.HorizonTweenDemo" name="Project.Functional Tests.Maps.HorizonTweenDemo.BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest" time="1.974034">
+    <system-out>[Info] Screenshot 'HorizonTweenDemo/BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest' was similar!  Global Difference = 0.008324, Max Local Difference = 0.136622</system-out>
+  </testcase>
+  <testcase classname="Project.Functional Tests.Maps.HorizonTweenDemo" name="Project.Functional Tests.Maps.HorizonTweenDemo.BP_MoveWithLerpMode_ScreenshotFunctionalTest" time="1.061028">
+    <system-out>[Info] Screenshot 'HorizonTweenDemo/BP_MoveWithLerpMode_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000</system-out>
+  </testcase>
+  <testcase classname="Project.Functional Tests.Maps.HorizonTweenDemo" name="Project.Functional Tests.Maps.HorizonTweenDemo.BP_MoveWithMultiStartEnd_ScreenshotFunctionalTest" time="2.176318">
+    <system-out>[Info] Screenshot 'HorizonTweenDemo/BP_MoveWithMultiStartEnd_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000</system-out>
+  </testcase>
+  <testcase classname="Project.Functional Tests.Maps.HorizonTweenDemo" name="Project.Functional Tests.Maps.HorizonTweenDemo.BP_MoveWithSpline_ScreenshotFunctionalTest" time="1.119158">
+    <system-out>[Info] Screenshot 'HorizonTweenDemo/BP_MoveWithSpline_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000</system-out>
+  </testcase>
+  <testcase classname="Project.Functional Tests.Maps.HorizonTweenDemo" name="Project.Functional Tests.Maps.HorizonTweenDemo.BP_MultiTweenActor_ScreenshotFunctionalTest" time="1.623897">
+    <system-out>[Info] Screenshot 'HorizonTweenDemo/BP_MultiTweenActor_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000</system-out>
+  </testcase>
+  <testcase classname="Project.Functional Tests.Maps.HorizonTweenDemo" name="Project.Functional Tests.Maps.HorizonTweenDemo.BP_MultiTweenComponent_ScreenshotFunctionalTest" time="1.372053">
+    <system-out>[Info] Screenshot 'HorizonTweenDemo/BP_MultiTweenComponent_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000</system-out>
+  </testcase>
+  <testcase classname="Project.Functional Tests.Maps.HorizonTweenDemo" name="Project.Functional Tests.Maps.HorizonTweenDemo.BP_MultiTweenWidget_UIScreenshotFunctionalTest" time="2.772148">
+    <system-out>[Info] Screenshot 'HorizonTweenDemo/BP_MultiTweenWidget_UIScreenshotFunctionalTest' was similar!  Global Difference = 0.024195, Max Local Difference = 0.491898</system-out>
+  </testcase>
+  <testcase classname="Project.Functional Tests.Maps.HorizonTweenDemo" name="Project.Functional Tests.Maps.HorizonTweenDemo.BP_TransfromParam_ScreenshotFunctionalTest" time="1.854998">
+    <system-out>[Info] Screenshot 'HorizonTweenDemo/BP_TransfromParam_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000</system-out>
+  </testcase>
+  <testcase classname="Project.Functional Tests.Maps.HorizonTweenDemo" name="Project.Functional Tests.Maps.HorizonTweenDemo.BP_TweenSceneComponent_ScreenshotFunctionalTest" time="1.431308">
+    <system-out>[Info] Screenshot 'HorizonTweenDemo/BP_TweenSceneComponent_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000</system-out>
+  </testcase>
+  <testcase classname="Project.Functional Tests.Maps.HorizonTweenDemo" name="Project.Functional Tests.Maps.HorizonTweenDemo.BP_TweenWidget_ScreenshotFunctionalTest" time="2.304806">
+    <system-out>[Info] Screenshot 'HorizonTweenDemo/BP_TweenWidget_ScreenshotFunctionalTest' was similar!  Global Difference = 0.027717, Max Local Difference = 0.538725</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,591 @@
+{
+	"devices": [
+		{
+			"deviceName": "redacted-device",
+			"instance": "redacted-instance",
+			"instanceName": "redacted-instance",
+			"platform": "Windows",
+			"oSVersion": "Windows (redacted)",
+			"model": "redacted-model",
+			"gPU": "redacted-gpu",
+			"cPUModel": "redacted-cpu",
+			"rAMInGB": "redacted",
+			"renderMode": "D3D12_SM5",
+			"rHI": "D3D12 (SM5)",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.06.17-15.20.35",
+	"succeeded": 16,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 27.954620361328125,
+	"comparisonExported": true,
+	"comparisonExportDirectory": "[redacted-path]",
+	"tests": [
+		{
+			"testDisplayName": "CheckAlphaResult",
+			"fullTestPath": "Plugin.UnitTests.HorizonTween.TweenActorEvent.MoveFromTo.CheckAlphaResult",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 1.0280033349990845,
+			"dateTime": "2026.06.17-15.20.04",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CheckAlphaResult",
+			"fullTestPath": "Plugin.UnitTests.HorizonTween.TweenFloatEvent.CheckAlphaResult",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 1.0281004905700684,
+			"dateTime": "2026.06.17-15.20.05",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "BP_BasicMoveLocal_ScreenshotFunctionalTest",
+			"fullTestPath": "Project.Functional Tests.Maps.HorizonTweenDemo.BP_BasicMoveLocal_ScreenshotFunctionalTest",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 2.2944746017456055,
+			"dateTime": "2026.06.17-15.20.06",
+			"entries": [
+				{
+					"event": {
+						"type": "Info",
+						"message": "Screenshot 'HorizonTweenDemo/BP_BasicMoveLocal_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000004, Max Local Difference = 0.000434",
+						"context": "",
+						"artifact": "F16AD5E547140A51E7FF33BE25AF7996"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.06.17-15.20.09"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": [
+				{
+					"iD": "F16AD5E547140A51E7FF33BE25AF7996",
+					"name": "HorizonTweenDemo/BP_BasicMoveLocal_ScreenshotFunctionalTest",
+					"type": "Comparison",
+					"files": {
+						"unapproved": "imageCompare/51494982/HorizonTweenDemo/BP_BasicMoveLocal_ScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+						"difference": "imageCompare/51494982/HorizonTweenDemo/BP_BasicMoveLocal_ScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+						"approved": "imageCompare/51494982/HorizonTweenDemo/BP_BasicMoveLocal_ScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png"
+					}
+				}
+			]
+		},
+		{
+			"testDisplayName": "BP_BasicMoveWorld_ScreenshotFunctionalTest",
+			"fullTestPath": "Project.Functional Tests.Maps.HorizonTweenDemo.BP_BasicMoveWorld_ScreenshotFunctionalTest",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 1.6732732057571411,
+			"dateTime": "2026.06.17-15.20.09",
+			"entries": [
+				{
+					"event": {
+						"type": "Info",
+						"message": "Screenshot 'HorizonTweenDemo/BP_BasicMoveWorld_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000",
+						"context": "",
+						"artifact": "2781338340AF7DDE66B13AB4E564D218"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.06.17-15.20.11"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": [
+				{
+					"iD": "2781338340AF7DDE66B13AB4E564D218",
+					"name": "HorizonTweenDemo/BP_BasicMoveWorld_ScreenshotFunctionalTest",
+					"type": "Comparison",
+					"files": {
+						"unapproved": "imageCompare/51494982/HorizonTweenDemo/BP_BasicMoveWorld_ScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+						"difference": "imageCompare/51494982/HorizonTweenDemo/BP_BasicMoveWorld_ScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+						"approved": "imageCompare/51494982/HorizonTweenDemo/BP_BasicMoveWorld_ScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png"
+					}
+				}
+			]
+		},
+		{
+			"testDisplayName": "BP_CustomCurve_ScreenshotFunctionalTest",
+			"fullTestPath": "Project.Functional Tests.Maps.HorizonTweenDemo.BP_CustomCurve_ScreenshotFunctionalTest",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 2.2697677612304688,
+			"dateTime": "2026.06.17-15.20.11",
+			"entries": [
+				{
+					"event": {
+						"type": "Info",
+						"message": "Screenshot 'HorizonTweenDemo/BP_CustomCurve_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000",
+						"context": "",
+						"artifact": "FB95D95D4CC6CD62909F7DA852D88445"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.06.17-15.20.13"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": [
+				{
+					"iD": "FB95D95D4CC6CD62909F7DA852D88445",
+					"name": "HorizonTweenDemo/BP_CustomCurve_ScreenshotFunctionalTest",
+					"type": "Comparison",
+					"files": {
+						"unapproved": "imageCompare/51494982/HorizonTweenDemo/BP_CustomCurve_ScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+						"difference": "imageCompare/51494982/HorizonTweenDemo/BP_CustomCurve_ScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+						"approved": "imageCompare/51494982/HorizonTweenDemo/BP_CustomCurve_ScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png"
+					}
+				}
+			]
+		},
+		{
+			"testDisplayName": "BP_EventCallback_ScreenshotFunctionalTest",
+			"fullTestPath": "Project.Functional Tests.Maps.HorizonTweenDemo.BP_EventCallback_ScreenshotFunctionalTest",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 1.9712520837783813,
+			"dateTime": "2026.06.17-15.20.13",
+			"entries": [
+				{
+					"event": {
+						"type": "Info",
+						"message": "Screenshot 'HorizonTweenDemo/BP_EventCallback_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000",
+						"context": "",
+						"artifact": "F80658F5443D0F23F7D9588A0F40F087"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.06.17-15.20.15"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": [
+				{
+					"iD": "F80658F5443D0F23F7D9588A0F40F087",
+					"name": "HorizonTweenDemo/BP_EventCallback_ScreenshotFunctionalTest",
+					"type": "Comparison",
+					"files": {
+						"unapproved": "imageCompare/51494982/HorizonTweenDemo/BP_EventCallback_ScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+						"difference": "imageCompare/51494982/HorizonTweenDemo/BP_EventCallback_ScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+						"approved": "imageCompare/51494982/HorizonTweenDemo/BP_EventCallback_ScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png"
+					}
+				}
+			]
+		},
+		{
+			"testDisplayName": "BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest",
+			"fullTestPath": "Project.Functional Tests.Maps.HorizonTweenDemo.BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 1.974034309387207,
+			"dateTime": "2026.06.17-15.20.15",
+			"entries": [
+				{
+					"event": {
+						"type": "Info",
+						"message": "Screenshot 'HorizonTweenDemo/BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest' was similar!  Global Difference = 0.008324, Max Local Difference = 0.136622",
+						"context": "",
+						"artifact": "9B53F9E444359A1D6428B2A5860AC38C"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.06.17-15.20.17"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": [
+				{
+					"iD": "9B53F9E444359A1D6428B2A5860AC38C",
+					"name": "HorizonTweenDemo/BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest",
+					"type": "Comparison",
+					"files": {
+						"unapproved": "imageCompare/51494982/HorizonTweenDemo/BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+						"difference": "imageCompare/51494982/HorizonTweenDemo/BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+						"approved": "imageCompare/51494982/HorizonTweenDemo/BP_MoveScaleRotationAndColor_ScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png"
+					}
+				}
+			]
+		},
+		{
+			"testDisplayName": "BP_MoveWithLerpMode_ScreenshotFunctionalTest",
+			"fullTestPath": "Project.Functional Tests.Maps.HorizonTweenDemo.BP_MoveWithLerpMode_ScreenshotFunctionalTest",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 1.061028242111206,
+			"dateTime": "2026.06.17-15.20.18",
+			"entries": [
+				{
+					"event": {
+						"type": "Info",
+						"message": "Screenshot 'HorizonTweenDemo/BP_MoveWithLerpMode_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000",
+						"context": "",
+						"artifact": "752920114FF10C8768BF29A2D6CA7AB0"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.06.17-15.20.19"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": [
+				{
+					"iD": "752920114FF10C8768BF29A2D6CA7AB0",
+					"name": "HorizonTweenDemo/BP_MoveWithLerpMode_ScreenshotFunctionalTest",
+					"type": "Comparison",
+					"files": {
+						"difference": "imageCompare/51494982/HorizonTweenDemo/BP_MoveWithLerpMode_ScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+						"unapproved": "imageCompare/51494982/HorizonTweenDemo/BP_MoveWithLerpMode_ScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+						"approved": "imageCompare/51494982/HorizonTweenDemo/BP_MoveWithLerpMode_ScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png"
+					}
+				}
+			]
+		},
+		{
+			"testDisplayName": "BP_MoveWithMultiStartEnd_ScreenshotFunctionalTest",
+			"fullTestPath": "Project.Functional Tests.Maps.HorizonTweenDemo.BP_MoveWithMultiStartEnd_ScreenshotFunctionalTest",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 2.1763179302215576,
+			"dateTime": "2026.06.17-15.20.19",
+			"entries": [
+				{
+					"event": {
+						"type": "Info",
+						"message": "Screenshot 'HorizonTweenDemo/BP_MoveWithMultiStartEnd_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000",
+						"context": "",
+						"artifact": "153D584D4E030175DFC879844D0923B9"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.06.17-15.20.21"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": [
+				{
+					"iD": "153D584D4E030175DFC879844D0923B9",
+					"name": "HorizonTweenDemo/BP_MoveWithMultiStartEnd_ScreenshotFunctionalTest",
+					"type": "Comparison",
+					"files": {
+						"unapproved": "imageCompare/51494982/HorizonTweenDemo/BP_MoveWithMultiStartEnd_ScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+						"difference": "imageCompare/51494982/HorizonTweenDemo/BP_MoveWithMultiStartEnd_ScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+						"approved": "imageCompare/51494982/HorizonTweenDemo/BP_MoveWithMultiStartEnd_ScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png"
+					}
+				}
+			]
+		},
+		{
+			"testDisplayName": "BP_MoveWithSpline_ScreenshotFunctionalTest",
+			"fullTestPath": "Project.Functional Tests.Maps.HorizonTweenDemo.BP_MoveWithSpline_ScreenshotFunctionalTest",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 1.1191575527191162,
+			"dateTime": "2026.06.17-15.20.21",
+			"entries": [
+				{
+					"event": {
+						"type": "Info",
+						"message": "Screenshot 'HorizonTweenDemo/BP_MoveWithSpline_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000",
+						"context": "",
+						"artifact": "0FA56709404A5FCEF0857C8CFD73F601"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.06.17-15.20.22"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": [
+				{
+					"iD": "0FA56709404A5FCEF0857C8CFD73F601",
+					"name": "HorizonTweenDemo/BP_MoveWithSpline_ScreenshotFunctionalTest",
+					"type": "Comparison",
+					"files": {
+						"difference": "imageCompare/51494982/HorizonTweenDemo/BP_MoveWithSpline_ScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+						"unapproved": "imageCompare/51494982/HorizonTweenDemo/BP_MoveWithSpline_ScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+						"approved": "imageCompare/51494982/HorizonTweenDemo/BP_MoveWithSpline_ScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png"
+					}
+				}
+			]
+		},
+		{
+			"testDisplayName": "BP_MultiTweenActor_ScreenshotFunctionalTest",
+			"fullTestPath": "Project.Functional Tests.Maps.HorizonTweenDemo.BP_MultiTweenActor_ScreenshotFunctionalTest",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 1.6238974332809448,
+			"dateTime": "2026.06.17-15.20.22",
+			"entries": [
+				{
+					"event": {
+						"type": "Info",
+						"message": "Screenshot 'HorizonTweenDemo/BP_MultiTweenActor_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000",
+						"context": "",
+						"artifact": "D63B2C97494B496AFEE6C78D878B3E46"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.06.17-15.20.24"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": [
+				{
+					"iD": "D63B2C97494B496AFEE6C78D878B3E46",
+					"name": "HorizonTweenDemo/BP_MultiTweenActor_ScreenshotFunctionalTest",
+					"type": "Comparison",
+					"files": {
+						"unapproved": "imageCompare/51494982/HorizonTweenDemo/BP_MultiTweenActor_ScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+						"difference": "imageCompare/51494982/HorizonTweenDemo/BP_MultiTweenActor_ScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+						"approved": "imageCompare/51494982/HorizonTweenDemo/BP_MultiTweenActor_ScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png"
+					}
+				}
+			]
+		},
+		{
+			"testDisplayName": "BP_MultiTweenComponent_ScreenshotFunctionalTest",
+			"fullTestPath": "Project.Functional Tests.Maps.HorizonTweenDemo.BP_MultiTweenComponent_ScreenshotFunctionalTest",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 1.3720533847808838,
+			"dateTime": "2026.06.17-15.20.24",
+			"entries": [
+				{
+					"event": {
+						"type": "Info",
+						"message": "Screenshot 'HorizonTweenDemo/BP_MultiTweenComponent_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000",
+						"context": "",
+						"artifact": "93D973E04AFEE525DFA19B9A1329098C"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.06.17-15.20.26"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": [
+				{
+					"iD": "93D973E04AFEE525DFA19B9A1329098C",
+					"name": "HorizonTweenDemo/BP_MultiTweenComponent_ScreenshotFunctionalTest",
+					"type": "Comparison",
+					"files": {
+						"difference": "imageCompare/51494982/HorizonTweenDemo/BP_MultiTweenComponent_ScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+						"unapproved": "imageCompare/51494982/HorizonTweenDemo/BP_MultiTweenComponent_ScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+						"approved": "imageCompare/51494982/HorizonTweenDemo/BP_MultiTweenComponent_ScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png"
+					}
+				}
+			]
+		},
+		{
+			"testDisplayName": "BP_MultiTweenWidget_UIScreenshotFunctionalTest",
+			"fullTestPath": "Project.Functional Tests.Maps.HorizonTweenDemo.BP_MultiTweenWidget_UIScreenshotFunctionalTest",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 2.7721476554870605,
+			"dateTime": "2026.06.17-15.20.26",
+			"entries": [
+				{
+					"event": {
+						"type": "Info",
+						"message": "Screenshot 'HorizonTweenDemo/BP_MultiTweenWidget_UIScreenshotFunctionalTest' was similar!  Global Difference = 0.024195, Max Local Difference = 0.491898",
+						"context": "",
+						"artifact": "9B377048485709553DFDACA383CB843B"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.06.17-15.20.28"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": [
+				{
+					"iD": "9B377048485709553DFDACA383CB843B",
+					"name": "HorizonTweenDemo/BP_MultiTweenWidget_UIScreenshotFunctionalTest",
+					"type": "Comparison",
+					"files": {
+						"unapproved": "imageCompare/51494982/HorizonTweenDemo/BP_MultiTweenWidget_UIScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+						"difference": "imageCompare/51494982/HorizonTweenDemo/BP_MultiTweenWidget_UIScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+						"approved": "imageCompare/51494982/HorizonTweenDemo/BP_MultiTweenWidget_UIScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png"
+					}
+				}
+			]
+		},
+		{
+			"testDisplayName": "BP_TransfromParam_ScreenshotFunctionalTest",
+			"fullTestPath": "Project.Functional Tests.Maps.HorizonTweenDemo.BP_TransfromParam_ScreenshotFunctionalTest",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 1.8549977540969849,
+			"dateTime": "2026.06.17-15.20.29",
+			"entries": [
+				{
+					"event": {
+						"type": "Info",
+						"message": "Screenshot 'HorizonTweenDemo/BP_TransfromParam_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000",
+						"context": "",
+						"artifact": "44D4BB9A48C3DB52257E808CEF873921"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.06.17-15.20.30"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": [
+				{
+					"iD": "44D4BB9A48C3DB52257E808CEF873921",
+					"name": "HorizonTweenDemo/BP_TransfromParam_ScreenshotFunctionalTest",
+					"type": "Comparison",
+					"files": {
+						"unapproved": "imageCompare/51494982/HorizonTweenDemo/BP_TransfromParam_ScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+						"difference": "imageCompare/51494982/HorizonTweenDemo/BP_TransfromParam_ScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+						"approved": "imageCompare/51494982/HorizonTweenDemo/BP_TransfromParam_ScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png"
+					}
+				}
+			]
+		},
+		{
+			"testDisplayName": "BP_TweenSceneComponent_ScreenshotFunctionalTest",
+			"fullTestPath": "Project.Functional Tests.Maps.HorizonTweenDemo.BP_TweenSceneComponent_ScreenshotFunctionalTest",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 1.4313079118728638,
+			"dateTime": "2026.06.17-15.20.31",
+			"entries": [
+				{
+					"event": {
+						"type": "Info",
+						"message": "Screenshot 'HorizonTweenDemo/BP_TweenSceneComponent_ScreenshotFunctionalTest' was similar!  Global Difference = 0.000000, Max Local Difference = 0.000000",
+						"context": "",
+						"artifact": "FF4DD5F74B8FBEFBCBC23286C3188AA6"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.06.17-15.20.32"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": [
+				{
+					"iD": "FF4DD5F74B8FBEFBCBC23286C3188AA6",
+					"name": "HorizonTweenDemo/BP_TweenSceneComponent_ScreenshotFunctionalTest",
+					"type": "Comparison",
+					"files": {
+						"unapproved": "imageCompare/51494982/HorizonTweenDemo/BP_TweenSceneComponent_ScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+						"difference": "imageCompare/51494982/HorizonTweenDemo/BP_TweenSceneComponent_ScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+						"approved": "imageCompare/51494982/HorizonTweenDemo/BP_TweenSceneComponent_ScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png"
+					}
+				}
+			]
+		},
+		{
+			"testDisplayName": "BP_TweenWidget_ScreenshotFunctionalTest",
+			"fullTestPath": "Project.Functional Tests.Maps.HorizonTweenDemo.BP_TweenWidget_ScreenshotFunctionalTest",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5D0F5A7A45EDCF682FCD1B85CD592663"
+			],
+			"duration": 2.3048064708709717,
+			"dateTime": "2026.06.17-15.20.32",
+			"entries": [
+				{
+					"event": {
+						"type": "Info",
+						"message": "Screenshot 'HorizonTweenDemo/BP_TweenWidget_ScreenshotFunctionalTest' was similar!  Global Difference = 0.027717, Max Local Difference = 0.538725",
+						"context": "",
+						"artifact": "213F0E4A4C5580D57C6916BB957CE2D6"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.06.17-15.20.35"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": [
+				{
+					"iD": "213F0E4A4C5580D57C6916BB957CE2D6",
+					"name": "HorizonTweenDemo/BP_TweenWidget_ScreenshotFunctionalTest",
+					"type": "Comparison",
+					"files": {
+						"unapproved": "imageCompare/51494982/HorizonTweenDemo/BP_TweenWidget_ScreenshotFunctionalTest/Windows/D3D12_SM5/Incoming.png",
+						"difference": "imageCompare/51494982/HorizonTweenDemo/BP_TweenWidget_ScreenshotFunctionalTest/Windows/D3D12_SM5/Delta.png",
+						"approved": "imageCompare/51494982/HorizonTweenDemo/BP_TweenWidget_ScreenshotFunctionalTest/Windows/D3D12_SM5/Approved.png"
+					}
+				}
+			]
+		}
+	]
+}

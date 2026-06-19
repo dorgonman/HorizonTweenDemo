@@ -1,0 +1,16 @@
+{
+    "projectName": "HorizonTweenDemo",
+    "targetId": "Win64-Standalone",
+    "configuration": "Development",
+    "uatExitCode": 0,
+    "canonicalReportDir": "Intermediate/BuildArtifacts/BuildPackage/Win64/main/5.7.0.377/Development/StandaloneTestReport",
+    "ueAutomationJUnitXml": "Intermediate/BuildArtifacts/BuildPackage/Win64/main/5.7.0.377/Development/StandaloneTestReport/ue-automation-junit.xml",
+    "testsXml": "Intermediate/BuildArtifacts/BuildPackage/Win64/main/5.7.0.377/Development/StandaloneTestReport/tests.xml",
+    "standaloneTestReportTar": "Intermediate/BuildArtifacts/BuildPackage/Win64/main/5.7.0.377/Development/StandaloneTestReport/StandaloneTestReport.tar",
+    "publicStandaloneTestReportTar": "Build/HorizonTweenDemo-Win64-main-377-Development-StandaloneTestReport.tar",
+    "rawReportRoot": "Intermediate/BuildArtifacts/BuildPackage/Win64/main/5.7.0.377/Development/StandaloneTestReport",
+    "rawResultDir": "Intermediate/BuildArtifacts/BuildPackage/Win64/main/5.7.0.377/Development/StandaloneTestReport/Result",
+    "rawJUnitXml": "Intermediate/BuildArtifacts/BuildPackage/Win64/main/5.7.0.377/Development/StandaloneTestReport/Result/junit-report.xml",
+    "junitGenerated": true,
+    "compatibilityJUnitGenerated": true
+}
